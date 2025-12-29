@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Transparent background -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="20dp" />
+
+    <!-- Border (stroke) -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/primary_teal" />
+</shape>

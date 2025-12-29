@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Edit Patient action, shown as an icon if there's space -->
+    <item
+        android:id="@+id/nav_edit_patient"
+        android:title="@string/action_edit_patient"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="ifRoom" />
+
+    <!-- Additional options that will appear under the three-dot menu -->
+    <item
+        android:id="@+id/action_emergency_contacts"
+        android:title="@string/action_emergency_contacts"
+        android:icon="@drawable/ic_emergency_contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout1"
+        android:title="Logout" />
+
+</menu>
+

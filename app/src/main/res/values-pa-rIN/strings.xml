@@ -1,0 +1,363 @@
+<resources>
+    <!-- App Info -->
+    <string name="app_name"><![CDATA[ਮੇਡੀਕਨੈਕਟ]]></string>
+    <string name="subtitle">ਹਰ ਭਾਰਤੀ ਲਈ ਸਿਹਤ ਸੇਵਾ। ਕਿਸੇ ਵੀ ਸਥਾਨ ‘ਤੇ।</string>
+    <string name="play_intro">ਪਰਿਚਯ ਚਲਾਓ</string>
+    <string name="stop_intro">ਪਰਿਚਯ ਰੋਕੋ</string>
+    <string name="app_intro_text"><![CDATA[
+        ਨਮਸਕਾਰ! ਮੈਡੀਕਨੈਕਟ AI ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ।
+        ਭਾਰਤ ਦੇ ਹਰ ਕੋਨੇ ਲਈ ਤੁਹਾਡਾ ਸਮਾਰਟ ਸਿਹਤ ਸਾਥੀ।
+        ਪਿੰਡਾਂ ਅਤੇ ਦੂਰ-ਦਰਾਜ਼ ਸਿਹਤ ਕਰਮਚਾਰੀਆਂ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ।
+        ਵਿਜ਼ਿਟਾਂ ਰਿਕਾਰਡ ਕਰੋ, AI ਸਿਫਾਰਸ਼ਾਂ ਪ੍ਰਾਪਤ ਕਰੋ ਅਤੇ ਇੰਟਰਨੈੱਟ ਨਾ ਹੋਣ ਦੇ ਬਾਵਜੂਦ ਆਫਲਾਈਨ ਕੰਮ ਕਰੋ।
+    ]]></string>
+
+    <string-array name="languages_array">
+        <item>ਅੰਗਰੇਜ਼ੀ (English)</item>
+        <item>ਹਿੰਦੀ (Hindi)</item>
+        <item>ਮਰਾਠੀ (Marathi)</item>
+        <item>ਬੰਗਾਲੀ (Bengali)</item>
+        <item>తెలుగు (Telugu)</item>
+        <item>தமிழ் (Tamil)</item>
+        <item>ગુજરાતી (Gujarati)</item>
+        <item>ಕನ್ನಡ (Kannada)</item>
+        <item>മലയാളം (Malayalam)</item>
+        <item>ਪੰਜਾਬੀ (Punjabi)</item>
+        <item>اردو (Urdu)</item>
+        <item>ଓଡ଼ିଆ (Odia)</item>
+    </string-array>
+
+    <!-- Language Names -->
+    <string name="lang_english">ਅੰਗਰੇਜ਼ੀ</string>
+    <string name="lang_hindi">ਹਿੰਦੀ</string>
+    <string name="lang_marathi">ਮਰਾਠੀ</string>
+
+    <!-- Labels -->
+    <string name="email_mobile">ਈਮੇਲ ਜਾਂ ਮੋਬਾਈਲ</string>
+    <string name="pin_label">ਪਾਸਵਰਡ / ਪਿਨ</string>
+    <string name="password_or_pin">ਪਾਸਵਰਡ / ਪਿਨ</string>
+    <string name="hint_pin">ਪਿਨ ਦਰਜ ਕਰੋ</string>
+    <string name="pin_hint">8-ਅੱਖਰ ਪਿਨ ਦਰਜ ਕਰੋ (ਅੱਖਰ ਅਤੇ ਨੰਬਰ)</string>
+    <string name="enter_8_digit_pin">8-ਅੰਕਾਂ ਦਾ ਪਿਨ ਦਰਜ ਕਰੋ</string>
+    <string name="remember_me">ਮੈਨੂੰ ਯਾਦ ਰੱਖੋ</string>
+    <string name="forgot_password">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?</string>
+    <string name="login">ਲਾਗਿਨ</string>
+    <string name="new_user_register">ਨਵਾਂ ਯੂਜ਼ਰ? ਹੁਣ ਰਜਿਸਟਰ ਕਰੋ</string>
+    <string name="offline_sync">ਐਪ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦਾ ਹੈ ਅਤੇ ਜੁੜਨ ‘ਤੇ ਸਿੰਕ ਹੁੰਦਾ ਹੈ</string>
+
+    <!-- Error Messages -->
+    <string name="error_email_mobile">ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ ਈਮੇਲ ਜਾਂ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ।</string>
+    <string name="error_pin">ਪਿਨ 8 ਅੱਖਰ/ਅੰਕ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="error_pin_alphanumeric">ਪਿਨ 8 ਅਲਫਾ-ਨੰਬਰ ਅੱਖਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+
+    <!-- Notifications / Toasts -->
+    <string name="login_success">ਲਾਗਿਨ ਸਫਲ!</string>
+    <string name="forgot_password_clicked">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ‘ਤੇ ਕਲਿੱਕ ਕੀਤਾ</string>
+    <string name="register_clicked">ਰਜਿਸਟਰ ‘ਤੇ ਕਲਿੱਕ ਕੀਤਾ</string>
+    <string name="no_role_selected_returning">ਕੋਈ ਭੂਮਿਕਾ ਚੁਣੀ ਨਹੀਂ ਗਈ। ਚੋਣ ਸਕ੍ਰੀਨ ਵਾਪਸ ਜਾ ਰਿਹਾ ਹੈ।</string>
+    <string name="coming_soon">ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ!</string>
+    <string name="tts_lang_not_supported">ਚੁਣੀ ਗਈ ਭਾਸ਼ਾ ਟੈਕਸਟ-ਟੂ-ਸਪੀਚ ਲਈ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ।</string>
+
+    <!-- Registration Screen Strings -->
+    <string name="full_name">ਪੂਰਾ ਨਾਮ</string>
+    <string name="age">ਉਮਰ</string>
+    <string name="gender">ਲਿੰਗ</string>
+    <string name="male">ਪੁਰਸ਼</string>
+    <string name="female">ਮਹਿਲਾ</string>
+    <string name="other">ਹੋਰ</string>
+    <string name="role">ਭੂਮਿਕਾ</string>
+    <string name="button_back">ਪਿੱਛੇ</string>
+    <string name="button_next">ਅੱਗੇ</string>
+    <string name="supervisor_name">ਸੁਪਰਵਾਈਜ਼ਰ ਦਾ ਨਾਮ</string>
+    <string name="select_state">ਰਾਜ ਚੁਣੋ</string>
+    <string name="select_district">ਜ਼ਿਲ੍ਹਾ ਚੁਣੋ</string>
+    <string name="qualification">ਯੋਗਤਾ</string>
+    <string name="experience">ਅਨੁਭਵ ਸਾਲ</string>
+    <string name="select_phc">PHC ਚੁਣੋ</string>
+
+    <!-- General UI -->
+    <string name="app_logo">ਐਪ ਲੋਗੋ</string>
+    <string name="logout_button">ਲਾਗਆਊਟ</string>
+    <string name="notifications_button">ਸੂਚਨਾਵਾਂ</string>
+    <string name="settings_button">ਸੈਟਿੰਗਜ਼</string>
+    <string name="about_us">ਸਾਡੇ ਬਾਰੇ</string>
+    <string name="app_language">ਐਪ ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="welcome_to_mediconnect_ai">ਮੈਡੀਕਨੈਕਟ AI ਵਿੱਚ ਸਵਾਗਤ ਹੈ</string>
+    <string name="privacy_policy_and_terms"><![CDATA[ਜਾਰੀ ਰੱਖਣ ‘ਤੇ, ਤੁਸੀਂ ਸਾਡੇ <a href="#">ਗੋਪਨੀਯਤਾ ਨੀਤੀ</a> ਅਤੇ <a href="#">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</a> ਨਾਲ ਸਹਿਮਤ ਹੋ।]]></string>
+    <string name="welcome_subtitle_hero"><![CDATA[ਤੁਸੀਂ ਸੇਵਾ ਲਿਆਉਂਦੇ ਹੋ। ਅਸੀਂ AI ਲਿਆਉਂਦੇ ਹਾਂ। ਕਦੇ ਵੀ, ਕਿਤੇ ਵੀ – ਆਫਲਾਈਨ ਵੀ।]]></string>
+    <string name="english">ਅੰਗਰੇਜ਼ੀ</string>
+    <string name="agree_and_continue">ਸਹਿਮਤ ਹੋਵੋ ਅਤੇ ਜਾਰੀ ਰੱਖੋ</string>
+
+
+
+    <!-- Welcome Screen -->
+    <string name="change_language">ਭਾਸ਼ਾ ਬਦਲੋ</string>
+    <string name="dropdown_icon_desc">ਭਾਸ਼ਾ ਚੁਣਨ ਲਈ ਡ੍ਰਾਪਡਾਊਨ ਆਈਕਨ</string>
+
+    <!-- Main Dashboard Screen -->
+    <string name="menu_description">ਮੇਨੂ</string>
+    <string name="emergency_sos_description">ਐਮਰਜੈਂਸੀ SOS</string>
+    <string name="dashboard_daily_tasks_title">ਰੋਜ਼ਾਨਾ ਕੰਮ</string>
+    <string name="dashboard_daily_tasks_subtitle">ਤੁਹਾਡੇ ਰੋਜ਼ਾਨਾ ਅਸਾਈਨਮੈਂਟ ਵੇਖੋ</string>
+    <string name="dashboard_new_patient_title">ਨਵਾਂ ਮਰੀਜ਼</string>
+    <string name="dashboard_new_patient_subtitle">ਨਵੀਂ ਵਿਅਕਤੀ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਕਰੋ</string>
+    <string name="dashboard_view_records_title">ਰਿਕਾਰਡ ਵੇਖੋ</string>
+    <string name="dashboard_view_records_subtitle">ਮਰੀਜ਼ ਦਾ ਇਤਿਹਾਸ ਵੇਖੋ</string>
+    <string name="dashboard_schedule_title">ਸੂਚੀ</string>
+    <string name="dashboard_schedule_subtitle">ਅੱਜ ਦੀਆਂ ਮੀਟਿੰਗਾਂ ਵੇਖੋ</string>
+    <string name="dashboard_symptom_checker_title">ਲੱਛਣ ਜਾਂਚ</string>
+    <string name="dashboard_symptom_checker_subtitle">ਲੱਛਣ ਚੈੱਕ ਕਰੋ ਅਤੇ ਸਿਫਾਰਸ਼ਾਂ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="dashboard_quick_stats_title">ਤੁਰੰਤ ਅੰਕੜੇ</string>
+    <string name="dashboard_quick_stats_subtitle">ਅੱਜ ਦਾ ਸੰਖੇਪ ਵੇਖੋ</string>
+
+    <!-- Role Selection Screen -->
+    <string name="role_selection_title">ਤੁਸੀਂ ਕੌਣ ਹੋ?</string>
+    <string name="role_selection_subtitle">ਚਾਲੂ ਰੱਖਣ ਲਈ ਆਪਣੀ ਭੂਮਿਕਾ ਚੁਣੋ</string>
+    <string name="role_asha_anm_nurse">ASHA / ANM / ਨਰਸ</string>
+    <string name="role_doctor">ਡਾਕਟਰ</string>
+    <string name="role_patient_family">ਮਰੀਜ਼ / ਪਰਿਵਾਰਕ ਮੈਂਬਰ</string>
+
+    <!-- Start Screen -->
+    <string name="start_screen_background_desc">ਸਹਿਮਤੀ ਵਾਲੇ ਮਾਹੌਲ ਵਿੱਚ ਸਿਹਤ ਕਰਮਚਾਰੀ</string>
+    <string name="start_screen_title">ਭਾਰਤ ਦੇ ਹਰ ਕੋਨੇ ਵਿੱਚ ਸਿਹਤ ਸੇਵਾਵਾਂ ਬਦਲਣ ਲਈ ਤਿਆਰ?</string>
+    <string name="start_screen_subtitle">AI-ਸਮਰਥਤ ਮਦਦ, ਆਫਲਾਈਨ ਪਹੁੰਚ, ਅਤੇ ਆਸਾਨ ਰਿਪੋਰਟਿੰਗ।</string>
+    <string name="start_screen_button">ਮੈਡੀਕਨੈਕਟ AI ਵਰਤਣਾ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="start_screen_tagline">ਹਰ ਪਰਿਵਾਰ ਨੂੰ ਸਮਾਰਟ ਸੇਵਾ ਚਾਹੀਦੀ ਹੈ, ਚੁੱਪ ਪੀੜਾ ਨਹੀਂ।</string>
+
+    <!-- Navigation Drawer Header -->
+    <string name="nav_header_title">ਮੈਡੀਕਨੈਕਟ AI</string>
+    <string name="nav_header_subtitle">ਸਿਹਤ ਕਰਮਚਾਰੀ ਡੈਸ਼ਬੋਰਡ</string>
+
+    <!-- SOS Log Item -->
+    <string name="sos_log_action_label">ਕਿਰਿਆ: </string>
+
+    <!-- Emergency Contact Item -->
+    <string name="item_emergency_contact_call_description">ਕਾਲ ਕਰੋ</string>
+
+    <!-- Welcome Fragment -->
+    <string name="welcome_fragment_background_desc">ਸਿਹਤ ਕਰਮਚਾਰੀਆਂ ਦੀ ਚਿੱਤਰਕਲਾ</string>
+    <string name="welcome_fragment_title">ਭਾਰਤ ਦੇ ਫ੍ਰੰਟਲਾਈਨ ਸਿਹਤ ਨਾਇਕਾਂ ਨੂੰ ਸਸੱਤ ਕਰੋ</string>
+    <string name="welcome_fragment_subtitle"><![CDATA[
+        ਸਹਾਨੁਭੂਤੀ ਨਾਲ ਬਣਾਇਆ।
+        AI ਨਾਲ ਸਮਰਥਿਤ।
+        ਭਾਰਤ ਦੇ ਫ੍ਰੰਟਲਾਈਨ ਸਿਹਤ ਕਰਮਚਾਰੀਆਂ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ।
+    ]]></string>
+
+    <string name="welcome_fragment_tagline">ASHA ਅਤੇ ANM ਕਰਮਚਾਰੀਆਂ ਨੂੰ ਉਹਨਾਂ ਸਥਾਨਾਂ ਤੇ ਜੀਵਨ ਬਚਾਉਣ ਯੋਗ ਬਣਾਉਂਦੇ ਜਿੱਥੇ ਡਾਕਟਰ ਨਹੀਂ ਪਹੁੰਚ ਸਕਦੇ।</string>
+    <string name="welcome_fragment_next_button_desc">ਅਗਲੇ ਪੰਨੇ ਤੇ ਜਾਓ</string>
+
+    <!-- Verification Fragment -->
+    <string name="verification_main_title">ਸਿਹਤ ਕਰਮਚਾਰੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ</string>
+    <string name="verification_progress_step">%2$d ਵਿੱਚੋਂ %1$d ਕਦਮ</string>
+    <string name="verification_card_title">ਅਕਾਊਂਟ ਬਣਾਓ</string>
+    <string name="verification_card_subtitle">ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਆਪਣਾ ਮੋਬਾਈਲ ਜਾਂ ਈਮੇਲ ਦਰਜ ਕਰੋ</string>
+    <string name="verification_toggle_mobile">ਮੋਬਾਈਲ</string>
+    <string name="verification_toggle_email">ਈਮੇਲ</string>
+    <string name="verification_hint_mobile">10-ਅੰਕ ਮੋਬਾਈਲ ਨੰਬਰ</string>
+    <string name="verification_hint_email">ਈਮੇਲ ਪਤਾ</string>
+    <string name="verification_hint_otp">6-ਅੰਕ OTP</string>
+    <string name="verification_resend_otp">OTP ਮੁੜ ਭੇਜੋ</string>
+    <string name="verification_email_info">ਤੁਹਾਡੇ ਈਮੇਲ ਨੂੰ ਇੱਕ ਵੈਰੀਫਿਕੇਸ਼ਨ ਲਿੰਕ ਭੇਜਿਆ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਨਬਾਕਸ ਚੈੱਕ ਕਰੋ।</string>
+    <string name="verification_continue_button">ਚਾਲੂ ਰੱਖੋ</string>
+
+    <!-- SOS Logs Screen -->
+    <string name="sos_logs_title">SOS ਲੌਗ</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_dialog_title">ਲਾਗਆਊਟ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="logout_dialog_message">ਕੀ ਤੁਸੀਂ ਲਾਗਆਊਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="logout_dialog_yes">ਹਾਂ</string>
+    <string name="logout_dialog_no">ਨਹੀਂ</string>
+
+    <!-- MPIN Screen -->
+    <string name="mpin_title_enter_pin">ਆਪਣਾ ਪਿਨ ਕੋਡ ਦਰਜ ਕਰੋ</string>
+    <string name="mpin_message_set_new">ਆਪਣਾ ਨਵਾਂ MPIN ਸੈੱਟ ਕਰੋ</string>
+    <string name="mpin_forgot_code">ਪਿਨ ਭੁੱਲ ਗਏ?</string>
+    <string name="mpin_backspace_description">ਬੈਕਸਪੇਸ</string>
+    <string name="mpin_submit_button">ਸਬਮਿਟ ਕਰੋ</string>
+
+    <!-- MPIN Activity Messages -->
+    <string name="mpin_set_successfully">MPIN ਸਫਲਤਾਪੂਰਵਕ ਸੈੱਟ ਹੋ ਗਿਆ!</string>
+    <string name="mpin_correct_welcome">ਪਿਨ ਸਹੀ ਹੈ! ਸਵਾਗਤ ਹੈ।</string>
+    <string name="mpin_incorrect_try_again">ਗਲਤ ਪਿਨ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+
+    <!-- NEW STRINGS FROM YOUR LAYOUT FILE -->
+    <string name="mpin_app_name_header">ਮੈਡੀਕਨੈਕਟ AI</string>
+
+
+
+    <!-- Additional MPIN Strings -->
+    <string name="mpin_title_create_pin">MPIN ਬਣਾਓ</string>
+    <string name="mpin_title_confirm_pin">MPIN ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="mpin_hint_pin">ਆਪਣਾ 4-ਅੰਕ MPIN ਦਰਜ ਕਰੋ</string>
+    <string name="mpin_hint_confirm_pin">ਆਪਣਾ MPIN ਦੁਬਾਰਾ ਦਰਜ ਕਰੋ</string>
+    <string name="mpin_button_continue">ਚਾਲੂ ਰੱਖੋ</string>
+    <string name="mpin_error_pin_required">ਪਿਨ ਲਾਜ਼ਮੀ ਹੈ</string>
+    <string name="mpin_error_pin_length">ਪਿਨ 4 ਅੰਕ ਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</string>
+    <string name="mpin_error_pin_mismatch">ਪਿਨ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ</string>
+
+    <string name="nav_home">ਹੋਮ</string>
+    <string name="nav_resources">ਸੰਸਾਧਨ</string>
+    <string name="nav_emergency_contacts">ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ</string>
+    <string name="nav_profile">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="nav_settings">ਸੈਟਿੰਗਜ਼</string>
+    <string name="nav_about_us">ਸਾਡੇ ਬਾਰੇ</string>
+    <string name="nav_account_header">ਖਾਤਾ</string>
+    <string name="nav_logout">ਲੌਗ ਆਊਟ</string>
+
+    <string name="immunization_schedules">ਟੀਕਾਕਰਨ ਸ਼ਡਿਊਲ</string>
+
+    <string name="action_edit_patient">ਮਰੀਜ਼ ਸੰਪਾਦਿਤ ਕਰੋ</string>
+    <string name="action_emergency_contacts">ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ</string>
+    <string name="action_logout">ਲੌਗ ਆਊਟ</string>
+
+    <string name="navigation_drawer_open">ਨੈਵੀਗੇਸ਼ਨ ਡਰਾਅਰ ਖੋਲ੍ਹੋ</string>
+    <string name="navigation_drawer_close">ਨੈਵੀਗੇਸ਼ਨ ਡਰਾਅਰ ਬੰਦ ਕਰੋ</string>
+
+    <string name="settings_title">ਸੈਟਿੰਗਸ</string>
+    <string name="settings_general">ਸਧਾਰਨ</string>
+    <string name="settings_language">ਭਾਸ਼ਾ</string>
+    <string name="settings_language_subtitle">ਐਪਲੀਕੇਸ਼ਨ ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="settings_notifications">ਸੂਚਨਾਵਾਂ</string>
+    <string name="settings_notifications_title">ਐਪ ਸੂਚਨਾਵਾਂ</string>
+    <string name="settings_notifications_subtitle">ਸਭ ਸਤਕਰਮ ਚਾਲੂ ਜਾਂ ਬੰਦ ਕਰੋ</string>
+    <string name="dialog_select_language_title">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+
+    <string name="resources_title">ਸਿਹਤ ਸਰੋਤ</string>
+    <string name="resources_maternal_title">ਮਾਤਾ ਸਿਹਤ</string>
+    <string name="resources_maternal_subtitle">ਐ.ਐੱਨ.ਸੀ, ਪੋਸਟਨਾਟਲ ਕੇਅਰ, ਪੋਸ਼ਣ</string>
+    <string name="resources_child_title">ਬੱਚੇ ਦੀ ਸਿਹਤ</string>
+    <string name="resources_child_subtitle">ਵਾਧਾ ਮਾਨੀਟਰਿੰਗ, ਪੋਸ਼ਣ</string>
+    <string name="resources_immunization_title">ਟੀਕਾਕਰਨ ਜਾਣਕਾਰੀ</string>
+    <string name="resources_immunization_subtitle">ਟੀਕਾ ਸ਼ਡਿਊਲ ਅਤੇ ਮਹੱਤਤਾ</string>
+    <string name="resources_schemes_title">ਸਰਕਾਰੀ ਯੋਜਨਾਵਾਂ</string>
+    <string name="resources_schemes_subtitle">ਜੇਐੱਸਐੱਸਕੇ, ਪੀਐਮਐਮਵਾਈ ਵੇਰਵਾ</string>
+
+    <string name="content_maternal_health">
+    <![CDATA[
+        <b>ਐਂਟਿਨੇਟਲ ਕੇਅਰ (ANC)</b><br/>
+        ਸਿਹਤਮੰਦ ਗਰਭਧਾਰਣ ਲਈ ਸਹੀ ਐਂਟਿਨੇਟਲ ਕੇਅਰ ਜਰੂਰੀ ਹੈ। ਮੁੱਖ ਜ਼ਿੰਮੇਵਾਰੀਆਂ:<br/>
+        <ul>
+            <li>ਪਹਿਲੀ ਚੈੱਕਅੱਪ ਪਹਿਲੇ 12 ਹਫ਼ਤਿਆਂ ਵਿੱਚ ਯਕੀਨੀ ਬਣਾਉਣਾ।</li>
+            <li>ਘੱਟੋ-ਘੱਟ ਚਾਰ ANC ਮਿਲਣਾ ਲਈ ਪ੍ਰੇਰਿਤ ਕਰਨਾ।</li>
+            <li>ਆਇਰਨ ਫੋਲਿਕ ਐਸਿਡ (IFA) ਗੋਲੀਆਂ ਦੇਣਾ ਅਤੇ ਟੀਟਨਸ ਟਾਕਸਾਇਡ (TT) ਇੰਜੈਕਸ਼ਨ ਯਕੀਨੀ ਬਣਾਉਣਾ।</li>
+        </ul>
+        <br/>
+        <b>ਪੋਸਟਨਾਟਲ ਕੇਅਰ (PNC)</b><br/>
+        ਜਨਮ ਦੇ ਬਾਅਦ ਮਾਂ ਅਤੇ ਬੱਚੇ ਲਈ ਦੇਖਭਾਲ ਜ਼ਰੂਰੀ ਹੈ। ਤੁਹਾਡਾ ਕੰਮ:<br/>
+        <ul>
+            <li>ਜਨਮ ਦੇ 24 ਘੰਟਿਆਂ ਵਿੱਚ ਪਹਿਲੀ ਘਰ ਵਿਜ਼ਿਟ ਕਰਨਾ।</li>
+            <li>ਪਹਿਲੇ 6 ਹਫ਼ਤਿਆਂ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 3-4 ਫਾਲੋ-ਅਪ ਵਿਜ਼ਿਟ।</li>
+            <li>ਇਕਸਕਲੂਸਿਵ ਬ੍ਰੀਫੀਡਿੰਗ, ਪੋਸ਼ਣ ਅਤੇ ਮਾਂ-ਨਵਜਾਤ ਬੱਚੇ ਦੇ ਖਤਰੇ ਦੇ ਲੱਛਣ ਬਾਰੇ ਸਲਾਹ ਦੇਣਾ।</li>
+        </ul>
+        <br/>
+        <b>ਗਰਭਾਵਸਥਾ ਦੌਰਾਨ ਪੋਸ਼ਣ</b><br/>
+        ਗਰਭਵਤੀ ਮਹਿਲਾਵਾਂ ਨੂੰ ਆਇਰਨ, ਕੈਲਸ਼ੀਅਮ ਅਤੇ ਪ੍ਰੋਟੀਨ ਨਾਲ ਭਰਪੂਰ ਸਤੁਲਤ ਆਹਾਰ ਖਾਣ ਲਈ ਪ੍ਰੇਰਿਤ ਕਰੋ। ਹਰੇ ਪੱਤਿਆਂ ਵਾਲੇ ਸਬਜ਼ੀਆਂ, ਦੁੱਧ ਦੇ ਉਤਪਾਦ ਅਤੇ ਦਾਲਾਂ ਖਾਣ ਲਈ ਉਤਸ਼ਾਹਿਤ ਕਰੋ।
+    ]]>
+</string>
+
+    <string name="content_child_health"><![CDATA[ਬੱਚਿਆਂ ਦੀ ਸਿਹਤ ਬਾਰੇ ਜਾਣਕਾਰੀ]]></string>
+    <string name="content_immunization_info"><![CDATA[ਟੀਕਾਕਰਨ ਜਾਣਕਾਰੀ ਬਾਰੇ]]></string>
+
+
+    <string name="content_gov_schemes">
+    <![CDATA[
+        <b>ਜਨਨੀ ਸ਼ishu ਸੁਰੱਖਿਆ ਕਾਰਜਕ੍ਰਮ (JSSK)</b><br/>
+        ਇਹ ਯੋਜਨਾ ਗਰਭਵਤੀ ਮਹਿਲਾਵਾਂ ਅਤੇ ਬਿਮਾਰ ਨਵਜਾਤ ਬੱਚਿਆਂ ਲਈ ਖਰਚ ਘਟਾਉਣ ਦਾ ਉਦੇਸ਼ ਹੈ। ਮੁੱਖ ਲਾਭ:<br/>
+        <ul>
+            <li>ਸਰਕਾਰੀ ਸਿਹਤ ਸੰਸਥਾਵਾਂ ਵਿੱਚ ਪੂਰਨ ਮੁਫ਼ਤ ਡਿਲਿਵਰੀ, ਸੀਜ਼ੇਰੀਅਨ ਸਮੇਤ।</li>
+            <li>ਘਰ ਤੋਂ ਸੰਸਥਾ, ਰੀਫ਼ਰਲ ਦੌਰਾਨ ਅਤੇ ਵਾਪਸੀ ਲਈ ਮੁਫ਼ਤ ਟ੍ਰਾਂਸਪੋਰਟ।</li>
+            <li>ਬਿਮਾਰ ਨਵਜਾਤ ਲਈ 1 ਸਾਲ ਤੱਕ ਮੁਫ਼ਤ ਦੇਖਭਾਲ, ਦਵਾਈਆਂ ਅਤੇ ਸਪਲਾਈਜ਼।</li>
+        </ul>
+        <br/>
+        <b>ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਮਾਤਾ ਵੰਧਨਾ ਯੋਜਨਾ (PMMVY)</b><br/>
+        ਇਹ ਗਰਭਵਤੀ ਮਹਿਲਾਵਾਂ ਅਤੇ સ્તਨਪਾਨ ਕਰਨ ਵਾਲੀਆਂ ਮਾਵਾਂ ਲਈ ਪਹਿਲੀ ਜੀਵੰਤ ਜਨਮ ਲਈ ਮਾਤਾ ਲਾਭ ਯੋਜਨਾ ਹੈ। ਮੁੱਖ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ:<br/>
+        <ul>
+            <li>₹5,000 ਦਾ ਨਕਦ ਇਨਸੈਂਟਿਵ ਤਿੰਨ ਕਿਸ਼ਤਾਂ ਵਿੱਚ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।</li>
+            <li>ਉਦੇਸ਼ ਹੈ ਅੰਸ਼ਕ ਵેતਨ ਭੁਗਤਾਨ ਪ੍ਰਦਾਨ ਕਰਨਾ ਅਤੇ ਮਾਂ-ਬੱਚੇ ਦੀ ਸਿਹਤ ਅਤੇ ਪੋਸ਼ਣ ਸੁਧਾਰਨਾ।</li>
+        </ul>
+    ]]>
+</string>
+
+    <string name="about_us_title">ਸਾਡੇ ਬਾਰੇ</string>
+    <string name="about_us_mission_title">ਸਾਡਾ ਮਿਸ਼ਨ</string>
+    <string name="about_us_mission_content">MediConnect AI ਇੱਕ ਡਿਜ਼ੀਟਲ ਸਹਾਇਕ ਹੈ ਜੋ ਸਮੁਦਾਇਕ ਸਿਹਤ ਕਰਮੀਆਂ ਨੂੰ ਸ਼ਕਤੀਸ਼ਾਲੀ ਬਣਾਉਂਦਾ ਹੈ ਅਤੇ ਪਿੰਡਾਂ ਵਿੱਚ ਸਿਹਤ ਸੇਵਾਵਾਂ ਦੀ ਪਹੁੰਚ ਸੁਧਾਰਦਾ ਹੈ।</string>
+    <string name="about_us_features_title">ਮੁੱਖ ਫੀਚਰ</string>
+    <string name="about_us_features_content"><![CDATA[
+        • ਸਵੈਚਾਲਿਤ ਕੰਮ ਸ਼ਡਿਊਲ<br/>
+        • ਡਿਜਿਟਲ ਮਰੀਜ਼ ਰਿਕਾਰਡ<br/>
+        • ਟੀਕਾਕਰਨ ਅਤੇ ANC ਟ੍ਰੈਕਿੰਗ<br/>
+        • ਸਮੁਦਾਇਕ ਸਿਹਤ ਪ੍ਰਸਾਰਣ<br/>
+        • ਲੱਛਣ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਰੈਫਰਲ
+    ]]></string>
+
+    <string name="profile_title">ਮੇਰੀ ਪ੍ਰੋਫ਼ਾਈਲ</string>
+    <string name="welcome_fragment_register_now">ਹੁਣੇ ਰਜਿਸਟਰ ਕਰੋ</string>
+
+    <string name="nav_sos">ਐੱਸਓਐੱਸ</string>
+    <string name="nav_notifications">ਸੂਚਨਾਵਾਂ</string>
+    <string name="nav_dashboard">ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="nav_my_profile">ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="nav_account">ਖਾਤਾ</string>
+    <string name="nav_doctor_dashboard">ਡਾਕਟਰ ਡੈਸ਼ਬੋਰਡ</string>
+    <string name="nav_health_worker_dashboard">ਸਿਹਤ ਕਰਮਚਾਰੀ ਡੈਸ਼ਬੋਰਡ</string>
+
+    <string name="register_new_patient">ਨਵੇਂ ਮਰੀਜ਼ ਦੀ ਰਜਿਸਟ੍ਰੇਸ਼ਨ</string>
+    <string name="personal_details">ਨਿੱਜੀ ਵੇਰਵੇ</string>
+
+    <string name="date_of_birth">ਜਨਮ ਤਾਰੀਖ</string>
+    <string name="no_date_selected">ਕੋਈ ਤਾਰੀਖ ਚੁਣੀ ਨਹੀਂ ਗਈ</string>
+    <string name="select_date">ਤਾਰੀਖ ਚੁਣੋ</string>
+
+    <string name="contact_health_info">ਸੰਪਰਕ ਅਤੇ ਸਿਹਤ ਜਾਣਕਾਰੀ</string>
+    <string name="contact_number">ਸੰਪਰਕ ਨੰਬਰ</string>
+    <string name="address_village">ਪਤਾ / ਪਿੰਡ</string>
+    <string name="aadhaar_number">ਆਧਾਰ ਨੰਬਰ (ਵਿਕਲਪਿਕ)</string>
+    <string name="pre_existing_conditions">ਪਹਿਲਾਂ ਤੋਂ ਮੌਜੂਦ ਬਿਮਾਰੀਆਂ (ਜੇ ਕੋਈ ਹੋਣ)</string>
+    <string name="save_patient">ਮਰੀਜ਼ ਨੂੰ ਸੇਵ ਕਰੋ</string>
+
+    <string name="smart_route_map">ਸਮਾਰਟ ਰੂਟ ਮੈਪ</string>
+    <string name="smart_route_subtitle">ਮੁਲਾਕਾਤਾਂ ਲਈ ਬਿਹਤਰ ਰਾਹ ਵੇਖੋ</string>
+
+    <string name="community_alerts">ਕਮਿਊਨਿਟੀ ਅਲਰਟ</string>
+    <string name="community_alerts_subtitle">ਸਿਹਤ ਚੇਤਾਵਨੀਆਂ ਜਾਰੀ ਕਰੋ</string>
+
+    <string name="smart_route_current_target">ਮੌਜੂਦਾ ਦੌਰੇ ਦਾ ਟਾਰਗਟ</string>
+    <string name="smart_route_calculating">ਸਰਬੋੱਤਮ ਰਸਤਾ ਗਿਣਿਆ ਜਾ ਰਿਹਾ ਹੈ...</string>
+
+
+    <string name="smart_route_mark_done">ਮੁਕੰਮਲ</string>
+    <string name="smart_route_navigate">ਨੇਵੀਗੇਟ ਕਰੋ</string>
+    <string name="smart_route_refresh">ਰਸਤਾ ਰੀਫ੍ਰੈਸ਼ ਕਰੋ</string>
+    <string name="smart_route_back_button">ਵਾਪਸ ਜਾਓ</string>
+
+    <string name="alert_title">ਬ੍ਰਾਡਕਾਸਟ ਅਲਰਟ</string>
+    <string name="alert_compose_message">ਸੁਨੇਹਾ ਲਿਖੋ</string>
+    <string name="alert_input_title_hint">ਸਿਰਲੇਖ (ਜਿਵੇਂ: ਪੋਲਿਓ ਕੈਂਪ)</string>
+    <string name="alert_input_message_hint">ਸੁਨੇਹੇ ਦੀ ਜਾਣਕਾਰੀ</string>
+    <string name="alert_select_audience">ਸਭਾਣਾ ਚੁਣੋ</string>
+    <string name="alert_all_families">ਸਾਰੇ ਰਜਿਸਟਰਡ ਪਰਿਵਾਰ</string>
+    <string name="alert_pregnant_only">ਕੇਵਲ ਗਰਭਵਤੀ ਔਰਤਾਂ (ANC)</string>
+    <string name="alert_children_under_5">5 ਸਾਲ ਤੋਂ ਘੱਟ ਬੱਚੇ (ਟੀਕਾਕਰਣ)</string>
+    <string name="alert_send_broadcast">📢 ਅਲਰਟ ਭੇਜੋ</string>
+    <string name="alert_ready_to_send">ਭੇਜਣ ਲਈ ਤਿਆਰ</string>
+
+    <string name="resource_header_image_desc">ਵਿਸ਼ੇ ਦਾ ਹੈਡਰ ਚਿੱਤਰ</string>
+    <string name="resource_detail_title">ਸਰੋਤ ਸਿਰਲੇਖ</string>
+    <string name="resource_detail_content">ਸਰੋਤ ਬਾਰੇ ਵਿਸਥਾਰਪੂਰਨ ਜਾਣਕਾਰੀ</string>
+
+    <string name="patient_id_title">ਆਪਣਾ ਮਰੀਜ਼ ID ਦਿਓ</string>
+    <string name="patient_id_subtitle">ਕਿਰਪਾ ਕਰਕੇ ਆਸ਼ਾ ਵਰਕਰ ਵੱਲੋਂ ਦਿੱਤਾ ID ਦਿਓ।</string>
+    <string name="patient_id_hint">ਮਰੀਜ਼ ID</string>
+    <string name="patient_id_button">ਮੇਰਾ ਡੈਸ਼ਬੋਰਡ ਵੇਖੋ</string>
+
+    <string name="family_info_title">ਪਰਿਵਾਰ / ਘਰੇਲੂ ਜਾਣਕਾਰੀ</string>
+    <string name="family_id_hint">ਪਰਿਵਾਰ ਆਈਡੀ / ਘਰ ਨੰਬਰ</string>
+    <string name="household_size_hint">ਇਸ ਘਰ ਵਿੱਚ ਕਿੰਨੇ ਲੋਕ ਰਹਿੰਦੇ ਹਨ?</string>
+    <string name="is_head_of_family">ਕੀ ਇਹ ਵਿਅਕਤੀ ਪਰਿਵਾਰ ਦਾ ਮੁਖੀ ਹੈ?</string>
+    <string name="capture_gps">📍 GPS ਕੈਪਚਰ ਕਰੋ</string>
+    <string name="location_not_set">ਟਿਕਾਣਾ ਸੈੱਟ ਨਹੀਂ ਹੈ</string>
+
+
+
+
+</resources>

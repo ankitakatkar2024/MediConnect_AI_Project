@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_marginBottom="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:id="@+id/item_patient_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_patient"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/circle_bg"
+            android:backgroundTint="#F5F7FA"
+            android:padding="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/header_text_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintStart_toEndOf="@id/item_patient_avatar"
+            app:layout_constraintEnd_toStartOf="@id/item_status_card"
+            app:layout_constraintTop_toTopOf="@id/item_patient_avatar"
+            app:layout_constraintBottom_toBottomOf="@id/item_patient_avatar">
+
+            <TextView
+                android:id="@+id/item_patient_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ankita Verma"
+                android:textStyle="bold"
+                android:textColor="#263238"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/item_patient_meta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24 Yrs • Female"
+                android:textColor="#78909C"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/item_status_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#FFF3E0"
+            app:cardElevation="0dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/item_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending"
+                android:textColor="#E65100"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="4dp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:id="@+id/reason_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F7FA"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/item_patient_avatar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REASON FOR REFERRAL"
+                android:letterSpacing="0.05"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:textColor="#90A4AE" />
+
+            <TextView
+                android:id="@+id/item_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient suffering from high fever and shivering for 3 days. Requires immediate blood work."
+                android:textColor="#37474F"
+                android:textSize="13sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            app:layout_constraintTop_toBottomOf="@id/reason_container">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_view_profile"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="View Profile"
+                android:textColor="#009688"
+                app:rippleColor="#E0F2F1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_resolve"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Resolve"
+                android:backgroundTint="#009688"
+                android:layout_marginStart="8dp"
+                app:cornerRadius="8dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

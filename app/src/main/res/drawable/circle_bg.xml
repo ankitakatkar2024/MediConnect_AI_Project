@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This drawable creates an oval shape.
+  If the View it's applied to has the same width and height, it will appear as a circle.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!--
+      Set the fill color of the circle.
+      You can change this to any color you like.
+      For example:
+      - Use a theme color: android:color="?attr/colorPrimary"
+      - Use a color resource: android:color="@color/light_teal"
+      - Use a hardcoded hex value: android:color="#E0F2F1"
+
+      The light gray "#EEEEEE" is a good default placeholder.
+    -->
+    <solid android:color="#EEEEEE" />
+
+    <!--
+      OPTIONAL: If you want a circle outline instead of a solid fill:
+      1. Remove the <solid ... /> tag above.
+      2. Uncomment the <stroke ... /> tag below and set your desired width and color.
+    -->
+    <!--
+    <stroke
+        android:width="2dp"
+        android:color="#009688" />
+    -->
+
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- UPDATED: Using a more visible, richer pink for better contrast -->
+    <solid android:color="#F48FB1" />
+</shape>

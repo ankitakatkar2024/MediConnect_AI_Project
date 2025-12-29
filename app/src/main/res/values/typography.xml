@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base Typography -->
+    <style name="Typography">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">?android:textColorPrimary</item> <!-- Auto light/dark -->
+    </style>
+
+    <!-- Headings -->
+    <style name="Typography.Heading1" parent="Typography">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Body text (slightly larger for better readability in healthcare apps) -->
+    <style name="Typography.Body2" parent="Typography">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <!-- Buttons (Higher contrast for accessibility) -->
+    <style name="Typography.ButtonText" parent="Typography">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:textColor">@color/teal_900</item> <!-- Custom healthcare color -->
+    </style>
+</resources>
