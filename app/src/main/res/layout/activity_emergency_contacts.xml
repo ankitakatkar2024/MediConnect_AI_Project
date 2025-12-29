@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/tvEmergencyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Configuration"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:paddingBottom="12dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Primary Doctor's Number (SMS Target)"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#333"/>
+
+            <EditText
+                android:id="@+id/etSosNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="e.g. 9999999999"
+                android:inputType="phone"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginTop="8dp"/>
+
+            <Button
+                android:id="@+id/btnSaveNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Number"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/teal_700"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quick Call List"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerEmergencyContacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnViewLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📜 View SOS Logs"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

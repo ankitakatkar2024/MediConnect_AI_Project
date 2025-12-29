@@ -1,0 +1,416 @@
+<resources>
+    <!-- App Info -->
+    <string name="app_name">MediConnect AI</string>
+    <string name="subtitle">Healthcare for every Indian. Anywhere.</string>
+    <string name="play_intro">Play Intro</string>
+    <string name="stop_intro">Stop Intro</string>
+    <string name="app_intro_text">
+        Hello! Welcome to MediConnect AI.
+        Your smart healthcare companion for every corner of India.
+        Designed for rural and remote health workers.
+        Record visits, get AI suggestions, and work offline even without internet.
+    </string>
+
+    <string-array name="languages_array">
+        <item>English (English)</item>
+        <item>हिन्दी (Hindi)</item>
+        <item>मराठी (Marathi)</item>
+        <item>বাংলা (Bengali)</item>
+        <item>తెలుగు (Telugu)</item>
+        <item>தமிழ் (Tamil)</item>
+        <item>ગુજરાતી (Gujarati)</item>
+        <item>ಕನ್ನಡ (Kannada)</item>
+        <item>മലയാളം (Malayalam)</item>
+        <item>ਪੰਜਾਬੀ (Punjabi)</item>
+        <item>اردو (Urdu)</item>
+        <item>ଓଡ଼ିଆ (Odia)</item>
+    </string-array>
+
+    <!-- Language Names -->
+    <string name="lang_english">English</string>
+    <string name="lang_hindi">Hindi</string>
+    <string name="lang_marathi">Marathi</string>
+
+    <!-- Labels -->
+    <string name="email_mobile">Email or Mobile</string>
+    <string name="pin_label">Password / PIN</string>
+    <string name="password_or_pin">Password / PIN</string>
+    <string name="hint_pin">Enter PIN</string>
+    <string name="pin_hint">Enter an 8-character PIN (letters &amp; numbers)</string>
+    <string name="enter_8_digit_pin">Enter 8-digit PIN</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="new_user_register">New user? Register now</string>
+    <string name="offline_sync">App works offline and syncs when connected</string>
+
+    <!-- Error Messages -->
+    <string name="error_email_mobile">Please enter a valid email or mobile number.</string>
+    <string name="error_pin">PIN must be exactly 8 characters/numbers</string>
+    <string name="error_pin_alphanumeric">PIN must be exactly 8 alphanumeric characters</string>
+
+    <!-- Notifications / Toasts -->
+    <string name="login_success">Login successful!</string>
+    <string name="forgot_password_clicked">Forgot Password clicked</string>
+    <string name="register_clicked">Register clicked</string>
+    <string name="no_role_selected_returning">No role selected. Returning to selection screen.</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="tts_lang_not_supported">Selected language is not supported for text-to-speech.</string>
+
+    <!-- Registration Screen Strings -->
+    <string name="full_name">Full Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="role">Role</string>
+    <string name="button_back">Back</string>
+    <string name="button_next">Next</string>
+    <string name="supervisor_name">Supervisor Name</string>
+    <string name="select_state">Select State</string>
+    <string name="select_district">Select District</string>
+    <string name="qualification">Qualification</string>
+    <string name="experience">Years of Experience</string>
+    <string name="select_phc">Select PHC</string>
+
+    <!-- General UI -->
+    <string name="app_logo">Application Logo</string>
+    <string name="logout_button">Logout</string>
+    <string name="notifications_button">Notifications</string>
+    <string name="settings_button">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="app_language">Select App Language</string>
+    <string name="welcome_to_mediconnect_ai">Welcome to MediConnect AI</string>
+    <string name="privacy_policy_and_terms">By continuing, you agree to our <![CDATA[<a href="#">Privacy Policy</a>]]> and <![CDATA[<a href="#">Terms of Service</a>]]>.</string>
+    <string name="welcome_subtitle_hero">You bring care. We bring AI. Available anytime, anywhere – even offline.</string>
+    <string name="english">English</string>
+    <string name="agree_and_continue">Agree and Continue</string>
+
+
+
+    <!-- Welcome Screen -->
+    <string name="change_language">Change Language</string>
+    <string name="dropdown_icon_desc">Dropdown icon to select language</string>
+
+    <!-- Main Dashboard Screen -->
+    <string name="menu_description">Menu</string>
+    <string name="emergency_sos_description">Emergency SOS</string>
+    <string name="dashboard_daily_tasks_title">Daily Tasks</string>
+    <string name="dashboard_daily_tasks_subtitle">View your daily tasks</string>
+    <string name="dashboard_new_patient_title">New Patient</string>
+    <string name="dashboard_new_patient_subtitle">Register a new person</string>
+    <string name="dashboard_view_records_title">View Records</string>
+    <string name="dashboard_view_records_subtitle">View patient history</string>
+    <string name="dashboard_schedule_title">Schedule</string>
+    <string name="dashboard_schedule_subtitle">View today’s appointments</string>
+    <string name="dashboard_symptom_checker_title">Symptom Checker</string>
+    <string name="dashboard_symptom_checker_subtitle">Check symptoms and get suggestions</string>
+    <string name="dashboard_quick_stats_title">Quick Stats</string>
+    <string name="dashboard_quick_stats_subtitle">View today’s summary</string>
+
+    <!-- Role Selection Screen -->
+    <string name="role_selection_title">Who are you?</string>
+    <string name="role_selection_subtitle">Select your role to continue</string>
+    <string name="role_asha_anm_nurse">ASHA / ANM / Nurse</string>
+    <string name="role_doctor">Doctor</string>
+    <string name="role_patient_family">Patient / Family Member</string>
+
+    <!-- Start Screen -->
+    <string name="start_screen_background_desc">A healthcare worker in a calm environment</string>
+    <string name="start_screen_title">Are you ready to transform healthcare across every corner of India?</string>
+    <string name="start_screen_subtitle">AI-powered assistance, offline access, and simple reporting for frontline health workers.</string>
+    <string name="start_screen_button">Start Using MediConnect AI</string>
+    <string name="start_screen_tagline">Because every family deserves smart care, not silent suffering.</string>
+
+    <!-- Navigation Drawer Header -->
+    <string name="nav_header_title">MediConnect AI</string>
+    <string name="nav_header_subtitle">Health Worker Dashboard</string>
+
+    <!-- SOS Log Item -->
+    <string name="sos_log_action_label">Action: </string>
+
+    <!-- Emergency Contact Item -->
+    <string name="item_emergency_contact_call_description">Call</string>
+
+    <!-- Welcome Fragment -->
+    <string name="welcome_fragment_background_desc">Image of healthcare workers</string>
+    <string name="welcome_fragment_title">Empowering India’s Frontline Health Heroes</string>
+    <string name="welcome_fragment_subtitle">Built with compassion.\nPowered by AI.\nDesigned for India’s frontline health workers.</string>
+    <string name="welcome_fragment_tagline">Empowering ASHA and ANM workers to save lives – even where doctors cannot reach.</string>
+    <string name="welcome_fragment_next_button_desc">Go to next page</string>
+
+    <!-- Verification Fragment -->
+    <string name="verification_main_title">Health Worker Registration</string>
+    <string name="verification_progress_step">Step %1$d of %2$d</string>
+    <string name="verification_card_title">Create Account</string>
+    <string name="verification_card_subtitle">Enter your mobile or email to get started</string>
+    <string name="verification_toggle_mobile">Mobile</string>
+    <string name="verification_toggle_email">Email</string>
+    <string name="verification_hint_mobile">10-digit mobile number</string>
+    <string name="verification_hint_email">Email Address</string>
+    <string name="verification_hint_otp">6-digit OTP</string>
+    <string name="verification_resend_otp">Resend OTP</string>
+    <string name="verification_email_info">A verification link has been sent to your email. Please check your inbox.</string>
+    <string name="verification_continue_button">Continue</string>
+
+    <!-- SOS Logs Screen -->
+    <string name="sos_logs_title">SOS Logs</string>
+
+    <!-- Logout Dialog -->
+    <string name="logout_dialog_title">Confirm Logout</string>
+    <string name="logout_dialog_message">Are you sure you want to logout?</string>
+    <string name="logout_dialog_yes">Yes</string>
+    <string name="logout_dialog_no">No</string>
+
+    <!-- MPIN Screen -->
+    <string name="mpin_title_enter_pin">Enter your PIN Code</string>
+    <string name="mpin_message_set_new">Set your new MPIN</string>
+    <string name="mpin_forgot_code">Forgot Code?</string>
+    <string name="mpin_backspace_description">Backspace</string>
+    <string name="mpin_submit_button">Submit</string>
+
+    <!-- MPIN Activity Messages -->
+    <string name="mpin_set_successfully">MPIN set successfully!</string>
+    <string name="mpin_correct_welcome">PIN correct! Welcome.</string>
+    <string name="mpin_incorrect_try_again">Incorrect PIN. Try again.</string>
+
+    <!-- ✅ NEW STRINGS FROM YOUR LAYOUT FILE -->
+    <string name="mpin_app_name_header">MediConnect AI</string>
+
+
+
+    <!-- MPIN Screen -->
+    <string name="mpin_title_create_pin">Create MPIN</string>
+    <string name="mpin_title_confirm_pin">Confirm MPIN</string>
+    <string name="mpin_hint_pin">Enter your 4-digit MPIN</string>
+    <string name="mpin_hint_confirm_pin">Re-enter your MPIN</string>
+    <string name="mpin_button_continue">Continue</string>
+    <string name="mpin_error_pin_required">PIN is required</string>
+    <string name="mpin_error_pin_length">PIN must be 4 digits</string>
+    <string name="mpin_error_pin_mismatch">PIN does not match</string>
+
+    <!-- English (en) -->
+    <string name="nav_home">Home</string>
+    <string name="nav_resources">Resources</string>
+    <string name="nav_emergency_contacts">Emergency Contacts</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_account_header">Account</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- ERROR FIX: Add the missing string for the immunization schedule card -->
+    <string name="immunization_schedules">Immunization Schedules</string>
+
+    <!-- NEW: Add these strings for the patient dashboard menu -->
+    <string name="action_edit_patient">Edit Patient</string>
+    <string name="action_emergency_contacts">Emergency Contacts</string>
+    <string name="action_logout">Logout</string>
+
+    !-- NEW: Add these strings for the Navigation Drawer toggle -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- NEW: Add all strings for the Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_subtitle">Choose the application language</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_title">App Notifications</string>
+    <string name="settings_notifications_subtitle">Enable or disable all alerts</string>
+    <string name="dialog_select_language_title">Select Language</string>
+
+
+    <string name="resources_title">Health Resources</string>
+    <string name="resources_maternal_title">Maternal Health</string>
+    <string name="resources_maternal_subtitle">ANC, Postnatal Care, Nutrition</string>
+    <string name="resources_child_title">Child Health</string>
+    <string name="resources_child_subtitle">Growth Monitoring, Nutrition</string>
+    <string name="resources_immunization_title">Immunization Info</string>
+    <string name="resources_immunization_subtitle">Vaccine schedules and importance</string>
+    <string name="resources_schemes_title">Government Schemes</string>
+    <string name="resources_schemes_subtitle">JSSK, PMMVY details</string>
+
+
+
+
+    <string name="content_maternal_health">
+        <![CDATA[
+            <b>Antenatal Care (ANC)</b><br/>
+            Proper antenatal care is crucial for a healthy pregnancy. Key responsibilities include:<br/>
+            <ul>
+                <li>Ensuring the first check-up is within the first 12 weeks.</li>
+                <li>Motivating for a minimum of four ANC visits.</li>
+                <li>Distributing Iron Folic Acid (IFA) tablets and ensuring Tetanus Toxoid (TT) injections are administered.</li>
+            </ul>
+            <br/>
+            <b>Postnatal Care (PNC)</b><br/>
+            Care after delivery is vital for both mother and child. Your role is to:<br/>
+            <ul>
+                <li>Conduct the first home visit within 24 hours of delivery.</li>
+                <li>Perform at least 3-4 follow-up visits within the first 6 weeks.</li>
+                <li>Counsel on exclusive breastfeeding, nutrition, and how to identify danger signs in the mother and newborn.</li>
+            </ul>
+            <br/>
+            <b>Nutrition During Pregnancy</b><br/>
+            Advise pregnant women to consume a balanced diet rich in iron, calcium, and protein. Encourage intake of green leafy vegetables, dairy products, and lentils.
+        ]]>
+    </string>
+
+    <string name="content_child_health">
+        <![CDATA[
+            <b>Growth Monitoring</b><br/>
+            Regularly monitor the growth of children under 5. This includes:<br/>
+            <ul>
+                <li>Taking accurate weight and height measurements during home visits.</li>
+                <li>Plotting the measurements on the Growth Chart to track development.</li>
+                <li>Identifying signs of malnutrition (underweight, stunting) and counseling parents on appropriate feeding practices.</li>
+            </ul>
+            <br/>
+            <b>Nutrition for Infants and Children</b><br/>
+            Your counseling should focus on:<br/>
+            <ul>
+                <li>Promoting exclusive breastfeeding for the first 6 months.</li>
+                <li>Guiding the introduction of semi-solid complementary foods after 6 months, alongside continued breastfeeding.</li>
+                <li>Ensuring children receive their biannual Vitamin A supplementation as per the national schedule to prevent blindness and boost immunity.</li>
+            </ul>
+        ]]>
+    </string>
+
+    <string name="content_immunization_info">
+        <![CDATA[
+            <b>The Importance of Vaccination</b><br/>
+            Vaccines are the most effective way to protect children from serious and life-threatening diseases like Polio, Measles, Tetanus, and Tuberculosis. Your role as a community mobilizer is to ensure every child completes their full immunization schedule on time.<br/><br/>
+            <b>Key Vaccines in the First Year:</b><br/>
+            <ul>
+                <li><b>BCG, OPV-0, Hep-B:</b> Given at birth for protection against Tuberculosis, Polio, and Hepatitis B.</li>
+                <li><b>Pentavalent Vaccine:</b> Protects against 5 major diseases (Diphtheria, Pertussis, Tetanus, Hepatitis B, and Hib). Given at 6, 10, and 14 weeks.</li>
+                <li><b>Rotavirus Vaccine:</b> Protects against severe diarrhea. Given at 6, 10, and 14 weeks.</li>
+                <li><b>Measles/MR Vaccine:</b> Given at 9 months to protect against Measles and Rubella, which can be fatal in infants.</li>
+            </ul>
+        ]]>
+    </string>
+
+    <string name="content_gov_schemes">
+        <![CDATA[
+            <b>Janani Shishu Suraksha Karyakram (JSSK)</b><br/>
+            This scheme aims to reduce out-of-pocket expenses for pregnant women and sick newborns. Key entitlements include:<br/>
+            <ul>
+                <li>Absolutely free and no-expense delivery, including Caesarean section, in public health institutions.</li>
+                <li>Free transport from home to the institution, between facilities in case of referral, and drop back home.</li>
+                <li>Free care, drugs, and consumables for sick newborns up to one year of age.</li>
+            </ul>
+            <br/>
+            <b>Pradhan Mantri Matru Vandana Yojana (PMMVY)</b><br/>
+            This is a maternity benefit program for pregnant women and lactating mothers for their first live birth. Key features include:<br/>
+            <ul>
+                <li>A cash incentive of <b>₹5,000</b> paid in three installments.</li>
+                <li>The objective is to provide partial wage compensation and ensure improved health and nutrition for the mother and child.</li>
+            </ul>
+        ]]>
+    </string>
+
+    <!-- NEW: Add these strings for the enhanced "About Us" screen -->
+    <string name="about_us_title">About Us</string>
+    <string name="about_us_mission_title">Our Mission</string>
+    <string name="about_us_mission_content">MediConnect AI is a digital assistant designed to empower community health workers and improve healthcare access in rural areas.</string>
+    <string name="about_us_features_title">Key Features</string>
+    <string name="about_us_features_content">
+        • Automatic Task Scheduling\n
+        • Digital Patient Records\n
+        • Immunization &amp; ANC Tracking\n
+        • Community Health Broadcasting\n
+        • Symptom Analysis &amp; Referrals
+    </string>
+
+    <string name="profile_title">My Profile</string>
+
+    <string name="welcome_fragment_register_now">Register Now</string>
+
+    <!-- Navigation and Menu Titles -->
+    <string name="nav_sos">SOS</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_doctor_dashboard">Doctor Dashboard</string>
+    <string name="nav_health_worker_dashboard">Health Worker Dashboard</string>
+
+
+        <!-- ...other strings... -->
+        <string name="no_reason_provided">No reason provided.</string>
+
+
+
+
+        <!-- Registration Screen -->
+        <string name="register_new_patient">Register New Patient</string>
+        <string name="personal_details">Personal Details</string>
+
+        <string name="date_of_birth">Date of Birth</string>
+        <string name="no_date_selected">No date selected</string>
+        <string name="select_date">Select Date</string>
+
+        <string name="contact_health_info">Contact &amp; Health Information</string>
+        <string name="contact_number">Contact Number</string>
+        <string name="address_village">Address / Village</string>
+        <string name="aadhaar_number">Aadhaar Number (Optional)</string>
+        <string name="pre_existing_conditions">Pre-existing Conditions (if any)</string>
+        <string name="save_patient">Save Patient</string>
+
+       <string name="smart_route_map">Smart Route Map</string>
+       <string name="smart_route_subtitle">View optimized path for visits</string>
+
+       <string name="community_alerts">Community Alerts</string>
+       <string name="community_alerts_subtitle">Broadcast health warnings</string>
+
+    <string name="smart_route_current_target">Current Visit Target</string>
+    <string name="smart_route_calculating">Calculating optimal path...</string>
+    <string name="smart_route_tip">(Tip: Tap any map pin to skip to that house)</string>
+    <string name="smart_route_mark_done">Mark Done</string>
+    <string name="smart_route_navigate">Navigate</string>
+    <string name="smart_route_refresh">Refresh Route</string>
+    <string name="smart_route_back_button">Go Back</string>
+
+    <string name="alert_title">Broadcast Alert</string>
+    <string name="alert_compose_message">Compose Message</string>
+    <string name="alert_input_title_hint">Title (e.g. Polio Camp)</string>
+    <string name="alert_input_message_hint">Message Details</string>
+    <string name="alert_select_audience">Select Audience</string>
+    <string name="alert_all_families">All Registered Families</string>
+    <string name="alert_pregnant_only">Pregnant Women Only (ANC)</string>
+    <string name="alert_children_under_5">Children Under 5 (Immunization)</string>
+    <string name="alert_send_broadcast">📢 Send Broadcast Alert</string>
+    <string name="alert_ready_to_send">Ready to send</string>
+
+    <string name="resource_header_image_desc">Header image for the topic</string>
+    <string name="resource_detail_title">Resource Title</string>
+    <string name="resource_detail_content">Detailed content about the health resource</string>
+
+    <string name="patient_id_title">Enter Your Patient ID</string>
+    <string name="patient_id_subtitle">Please enter the unique ID given to you by your ASHA worker.</string>
+    <string name="patient_id_hint">Patient ID</string>
+    <string name="patient_id_button">View My Dashboard</string>
+
+
+    <string name="family_info_title">Family / Household Information</string>
+    <string name="family_id_hint">Family ID / House Number</string>
+    <string name="household_size_hint">How many people live in this house?</string>
+    <string name="is_head_of_family">Is this person head of the family?</string>
+    <string name="capture_gps">📍 Capture GPS</string>
+    <string name="location_not_set">Location not set</string>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

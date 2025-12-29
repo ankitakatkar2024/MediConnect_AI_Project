@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notificationsIcon"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/nav_notifications"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/sosIcon"
+        android:icon="@drawable/ic_sos_header"
+        android:title="@string/nav_sos"
+        app:showAsAction="ifRoom" />
+
+</menu>

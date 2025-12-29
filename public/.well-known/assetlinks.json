@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.mediconnect_ai",
+      "sha256_cert_fingerprints": [
+        "82:B6:E9:29:4C:B7:20:0A:D5:E8:19:20:5C:B8:6D:51:A2:A0:00:73:39:57:95:FB:62:F8:1B:73:37:C4:8F:E4"
+
+      ]
+    }
+  }
+]

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            app:navigationIcon="@drawable/ic_menu_hamburger"
+            app:title="@string/app_name"
+            app:titleTextColor="?attr/colorOnPrimary"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ScrollView
+            android:id="@+id/content_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#F8F9FA"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintBottom_toTopOf="@id/bottom_navigation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardDailyTasks"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_orange"
+                            android:src="@drawable/ic_task_list"
+                            android:contentDescription="@string/dashboard_daily_tasks_title"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="@string/dashboard_daily_tasks_title" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="@string/dashboard_daily_tasks_subtitle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- 2. NEW: Smart Route Map Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardRouteMap"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_blue"
+                            android:src="@drawable/ic_location"
+                            android:contentDescription="Smart Route Map"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="Smart Route Map" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="View optimized path for visits" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardCommunityAlerts"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_red"
+                            android:src="@android:drawable/ic_menu_send"
+                            android:contentDescription="Community Alerts"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="Community Alerts" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="Broadcast health warnings" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardOutbreakMap"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_red"
+                            android:src="@drawable/ic_warning"
+                            android:contentDescription="Outbreak Radar"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="Outbreak Radar" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="View AI Predictions" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardNewPatient"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_green"
+                            android:src="@drawable/ic_new_patient"
+                            android:contentDescription="@string/dashboard_new_patient_title"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="@string/dashboard_new_patient_title" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="@string/dashboard_new_patient_subtitle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardViewRecords"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_yellow"
+                            android:src="@drawable/ic_view_records"
+                            android:contentDescription="@string/dashboard_view_records_title"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="@string/dashboard_view_records_title" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="@string/dashboard_view_records_subtitle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardImmunizationSchedules"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_blue"
+                            android:src="@drawable/ic_vaccine"
+                            android:contentDescription="@string/immunization_schedules"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="@string/immunization_schedules" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="Track infant vaccinations" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardSymptomChecker"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_red"
+                            android:src="@drawable/ic_symptom_checker"
+                            android:contentDescription="@string/dashboard_symptom_checker_title"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="@string/dashboard_symptom_checker_title" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="@string/dashboard_symptom_checker_subtitle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardQuickStats"
+                    style="@style/DashboardCard">
+                    <LinearLayout style="@style/DashboardCardContent">
+                        <ImageView
+                            style="@style/DashboardCardIcon"
+                            android:background="@drawable/icon_background_teal"
+                            android:src="@drawable/ic_quick_stats"
+                            android:contentDescription="@string/dashboard_quick_stats_title"/>
+                        <LinearLayout style="@style/DashboardCardTextContainer">
+                            <TextView style="@style/DashboardCardTitle" android:text="@string/dashboard_quick_stats_title" />
+                            <TextView style="@style/DashboardCardSubtitle" android:text="@string/dashboard_quick_stats_subtitle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/bottom_nav_menu"
+            tools:layout_editor_absoluteX="-16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

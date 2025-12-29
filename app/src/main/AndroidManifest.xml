@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.SEND_SMS" /> <!-- Added for SOS -->
+    <!-- NEW: Permissions required to access the photo gallery on all Android versions -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!-- FIXED: Added both FINE and COARSE location permissions as required -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Added for Map loading -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Often needed for OSM caching -->
+
+
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name=".MediConnectApp"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mediconnect_ai">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LanguageSelectionActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".RoleSelectionActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".StartScreenActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MPinActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true"
+            android:label="Registration">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="healthcareapp-6d923.firebaseapp.com"
+                    android:pathPrefix="/__/auth/handler" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity android:name=".DoctorDashboardActivity" android:exported="false" />
+        <!-- UPDATED: Added a parent activity for better navigation -->
+        <!-- UPDATED: Added a parent activity for better back navigation -->
+        <activity
+            android:name=".PatientDashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".RecordsActivity" />
+
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".EmergencySosActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DailyTasksActivity" android:exported="false" />
+        <activity android:name=".NewPatientActivity" android:exported="false" />
+        <activity android:name=".RecordsActivity" android:exported="false" />
+
+        <activity
+            android:name=".OutbreakMapActivity"
+            android:exported="false"
+            android:label="Outbreak Radar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddPregnancyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientDetailActivity"
+            android:exported="false" />
+        <activity android:name=".NewTaskActivity" android:exported="false" />
+
+        <!-- TB Registration Screen -->
+        <activity
+            android:name=".RegisterTBActivity"
+            android:exported="false"
+            android:label="TB Registration"
+            android:parentActivityName=".PatientDetailActivity" />
+
+        <!-- TB Follow-up Schedule Screen -->
+        <activity
+            android:name=".TBScheduleActivity"
+            android:exported="false"
+            android:label="TB Follow-up Schedule"
+            android:parentActivityName=".PatientDetailActivity" />
+
+
+        <!-- NEW: Added ANCScheduleActivity declaration -->
+        <activity
+            android:name=".ANCScheduleActivity"
+            android:exported="false"
+            android:label="ANC Schedule"
+            android:parentActivityName=".PatientDetailActivity" />
+
+        <!-- NEW: PNC Schedule -->
+        <activity
+            android:name=".PNCScheduleActivity"
+            android:exported="false"
+            android:label="PNC Schedule"
+            android:parentActivityName=".PatientDetailActivity" />
+
+
+        <!-- NEW: Route Map Activity -->
+        <activity
+            android:name=".MapRouteActivity"
+            android:exported="false"
+            android:label="Smart Visit Route"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Registration for the Broadcast Alert Feature -->
+        <activity
+            android:name=".SendAlertActivity"
+            android:exported="false"
+            android:label="Broadcast Alert"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ReferPatientActivity"
+            android:exported="false"
+            android:label="Refer Patient"
+            android:parentActivityName=".PatientDetailActivity" />
+
+        <!-- Declaration for the Immunization Schedule Screen -->
+        <activity
+            android:name=".ImmunizationScheduleActivity"
+            android:exported="false"
+            android:label="Immunization Schedule"
+            android:parentActivityName=".ImmunizationHubActivity" />
+
+        <!-- UPDATED: Declaration for the new Immunization Hub Screen -->
+        <activity
+            android:name=".ImmunizationHubActivity"
+            android:exported="false"
+            android:label="Immunization Hub"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- NEW: Declaration for the Patient Tasks history screen -->
+        <activity
+            android:name=".PatientTasksActivity"
+            android:exported="false"
+            android:label="Patient Task History"
+            android:parentActivityName=".PatientDashboardActivity" />
+
+        <!-- NEW: Declaration for the Patient ID Entry Screen -->
+        <activity
+            android:name=".PatientIdEntryActivity"
+            android:exported="false"
+            android:label="Verify ID"
+            android:parentActivityName=".RoleSelectionActivity" />
+
+
+        <activity android:name=".QuickStatsActivity" android:exported="false" />
+        <activity android:name=".SymptomCheckerActivity" android:exported="false" />
+        <activity android:name=".EmergencyContactsActivity" android:exported="false" />
+        <activity android:name=".SosLogsActivity" android:exported="false" />
+
+        <activity
+            android:name=".PatientHistoryActivity"
+            android:label="Patient History"
+            android:parentActivityName=".PatientDetailActivity" />
+
+        <activity
+            android:name=".ResourcesActivity"
+            android:exported="false"
+            android:label="Health Resources"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MaternalHealthActivity"
+            android:exported="false"
+            android:parentActivityName=".ResourcesActivity" />
+
+        <activity
+            android:name=".ChildHealthActivity"
+            android:exported="false"
+            android:parentActivityName=".ResourcesActivity" />
+
+        <activity
+            android:name=".ImmunizationInfoActivity"
+            android:exported="false"
+            android:parentActivityName=".ResourcesActivity" />
+
+        <activity
+            android:name=".GovSchemesActivity"
+            android:exported="false"
+            android:parentActivityName=".ResourcesActivity" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NEW FILE: Gradient background for the main button -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#00897B"
+        android:endColor="#00695C"
+        android:angle="180" />
+    <corners android:radius="28dp" />
+</shape>
+

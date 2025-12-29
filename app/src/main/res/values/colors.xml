@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--    new-->
+    <color name="teal_900">#004D40</color> <!-- Your healthcare accent color -->
+
+    <!-- Text colors -->
+    <color name="primary_text">#212121</color>  <!-- Dark gray for main text -->
+    <color name="secondary_text">#757575</color> <!-- Medium gray for secondary text -->
+   <!--logout-->
+    <color name="red">#F44336</color> <!-- Material Red -->
+
+     <!-- welcomeFragment-->
+    <color name="deep_teal">#004D40</color>
+
+    <!--login.xml-->
+
+    <color name="primary_teal_dark">#00796B</color>
+    <color name="primary_teal">#2A9D8F</color>
+    <color name="sacramento_state_green">#00574B</color>
+    <color name="Dark_jungle_green">#004D40</color>
+
+    <!-- Brand primary color -->
+    <color name="colorPrimaryBrand">#00897B</color> <!-- Teal 600 -->
+
+    <!-- Text color for primary surfaces -->
+    <color name="colorPrimaryText">#212121</color> <!-- Almost black -->
+
+    <!-- Text/icon color on top of primary background -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White -->
+
+
+
+        <color name="text_selected">#2E7D32</color>
+        <color name="text_unselected">#212121</color>
+        <color name="bg_selected">#E8F5E9</color>
+        <color name="bg_unselected">#F5F5F5</color>
+        <color name="border_selected">#2E7D32</color>
+        <color name="border_unselected">#9E9E9E</color>
+        <color name="text_dark">#333333</color>
+
+      <!--    login page login colr-->
+    <color name="brand_teal_dark">#00796B</color>
+
+    <color name="deep_slate">#263238</color>
+
+
+
+<!--      mpin-->
+
+
+    <color name="keypad_bg_light_gray">#F1F3F5</color>
+    <color name="text_steel_blue">#495057</color>
+
+
+    <!-- Calm & Trustworthy Palette -->
+
+
+    <color name="text_dark_blue">#031D44</color>
+    <color name="primary_blue">#0D6EFD</color>
+
+    <color name="success_green">#10b981</color>
+    <color name="error_red">#dc2626</color>
+
+    <!-- ADDED: New color for the number buttons -->
+    <color name="keypad_mint_green">#A0E7E5</color>
+
+
+    <!-- ADDED: New background and lighter text colors -->
+    <color name="app_background_light_gray">#F8F9FA</color>
+    <color name="text_light_dark">#495057</color>
+
+    <color name="Mint_Green">#98FF98</color>
+    <color name="Light_Teal">#B2DFDB</color>
+    <color name="Light_Cyan">#E0FFFF</color>
+    <color name="Alice_Blue">#F0F8FF</color>
+    <color name="Honeydew">#F0FFF0</color>
+    <color name="Tea_Green">#D0F0C0</color>
+
+
+        <!-- Primary Brand Colors -->
+        <color name="teal_50">#E0F2F1</color>     <!-- Very light background teal -->
+        <color name="teal_100">#B2DFDB</color>   <!-- Light teal -->
+        <color name="teal_200">#80CBC4</color>   <!-- Used for outlines, track color -->
+        <color name="teal_500">#009688</color>   <!-- Base teal -->
+        <color name="teal_700">#00796B</color>   <!-- Primary (progress, buttons, toggles) -->
+
+
+        <!-- Accent Colors -->
+        <color name="tealAccent">#1DE9B6</color> <!-- Optional highlight/accent -->
+        <color name="errorRed">#D32F2F</color>   <!-- Error states (OTP/email validation) -->
+        <color name="neutralGray">#9E9E9E</color> <!-- Secondary text/unselected toggle -->
+
+        <!-- Backgrounds -->
+        <color name="backgroundLight">#FAFAFA</color>
+        <color name="backgroundSurface">#FFFFFF</color>
+
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_600">#00897B</color>
+
+    <color name="teal_800">#00695C</color>
+
+    <color name="purple_500">#6200EE</color>
+
+    <color name="colorPrimary">#4A148C</color>
+
+    <color name="light_grey">#E0E0E0</color>
+    <color name="white_ripple">#4DFFFFFF</color>
+
+
+
+        <color name="primary_text_color_dark">#212121</color>
+        <color name="secondary_text_color_dark">#757575</color>
+
+        <!-- ... your existing colors like purple_200, teal_200, black, white ... -->
+
+        <!-- FIX: Add these missing colors for the vaccine card backgrounds -->
+        <color name="status_completed_bg">#E8F5E9</color> <!-- A very light green -->
+        <color name="status_overdue_bg">#FFEBEE</color>   <!-- A very light red -->
+
+
+    <!-- UPDATED: New light and peaceful gradient colors -->
+    <color name="header_gradient_start">#E3F2FD</color>
+    <color name="header_gradient_end">#BBDEFB</color>
+
+    <color name="primary_dark_teal">#004D40</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

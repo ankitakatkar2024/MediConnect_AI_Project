@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- MAIN SECTION -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_doctor_dashboard"
+            android:icon="@drawable/ic_home"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_doctor_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile" />
+
+
+    </group>
+
+
+    <!-- SETTINGS / ACCOUNT SECTION -->
+    <item android:title="Account">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_doctor_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_doctor_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

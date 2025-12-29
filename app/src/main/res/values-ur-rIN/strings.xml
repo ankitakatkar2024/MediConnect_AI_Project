@@ -1,0 +1,364 @@
+<resources>
+    <!-- App Info -->
+    <string name="app_name">میڈیکونیکٹ AI</string>
+    <string name="subtitle">ہر بھارتی کے لیے صحت کی دیکھ بھال۔ کہیں بھی۔</string>
+    <string name="play_intro">تعارف چلائیں</string>
+    <string name="stop_intro">تعارف بند کریں</string>
+    <string name="app_intro_text">
+        السلام علیکم! میڈیکونیکٹ AI میں خوش آمدید۔
+        بھارت کے ہر کونے کے لیے آپ کا اسمارٹ ہیلتھ پارٹنر۔
+        دیہی اور دور دراز کے صحت کارکنوں کے لیے ڈیزائن کیا گیا۔
+        دوروں کو ریکارڈ کریں، AI تجاویز حاصل کریں، اور انٹرنیٹ نہ ہونے پر بھی آف لائن کام کریں۔
+    </string>
+
+    <string-array name="languages_array">
+        <item>انگریزی (English)</item>
+        <item>ہندی (Hindi)</item>
+        <item>مراٹھی (Marathi)</item>
+        <item>بنگالی (Bengali)</item>
+        <item>تلگو (Telugu)</item>
+        <item>تامِل (Tamil)</item>
+        <item>گجراتی (Gujarati)</item>
+        <item>کنڑ (Kannada)</item>
+        <item>مالایالم (Malayalam)</item>
+        <item>پنجابی (Punjabi)</item>
+        <item>اردو (Urdu)</item>
+        <item>اوڑیا (Odia)</item>
+    </string-array>
+
+    <!-- Language Names -->
+    <string name="lang_english">انگریزی</string>
+    <string name="lang_hindi">ہندی</string>
+    <string name="lang_marathi">مراٹھی</string>
+
+    <!-- Labels -->
+    <string name="email_mobile">ایمیل یا موبائل</string>
+    <string name="pin_label">پاس ورڈ / PIN</string>
+    <string name="password_or_pin">پاس ورڈ / PIN</string>
+    <string name="hint_pin">PIN درج کریں</string>
+    <string name="pin_hint">8 حروف/اعداد PIN درج کریں (حروف اور اعداد)</string>
+    <string name="enter_8_digit_pin">8 ہندسوں کا PIN درج کریں</string>
+    <string name="remember_me">مجھے یاد رکھیں</string>
+    <string name="forgot_password">پاس ورڈ بھول گئے؟</string>
+    <string name="login">لاگ ان</string>
+    <string name="new_user_register">نیا صارف؟ ابھی رجسٹر کریں</string>
+    <string name="offline_sync">ایپ آف لائن کام کرتی ہے اور کنکشن پر سنک ہوتی ہے</string>
+
+    <!-- Error Messages -->
+    <string name="error_email_mobile">براہ کرم درست ایمیل یا موبائل نمبر درج کریں۔</string>
+    <string name="error_pin">PIN بالکل 8 حروف/اعداد ہونا چاہیے</string>
+    <string name="error_pin_alphanumeric">PIN بالکل 8 حروف اور اعداد پر مشتمل ہونا چاہیے</string>
+
+    <!-- Notifications / Toasts -->
+    <string name="login_success">لاگ ان کامیاب!</string>
+    <string name="forgot_password_clicked">پاس ورڈ بھول گئے پر کلک کیا گیا</string>
+    <string name="register_clicked">رجسٹریشن پر کلک کیا گیا</string>
+    <string name="no_role_selected_returning">کوئی کردار منتخب نہیں کیا گیا۔ دوبارہ سلیکشن اسکرین پر جا رہے ہیں۔</string>
+    <string name="coming_soon">جلد آ رہا ہے!</string>
+    <string name="tts_lang_not_supported">منتخب زبان Text-to-Speech کے لیے سپورٹ نہیں ہے۔</string>
+
+    <!-- Registration Screen Strings -->
+    <string name="full_name">پورا نام</string>
+    <string name="age">عمر</string>
+    <string name="gender">صنف</string>
+    <string name="male">مرد</string>
+    <string name="female">عورت</string>
+    <string name="other">دیگر</string>
+    <string name="role">کردار</string>
+    <string name="button_back">پیچھے</string>
+    <string name="button_next">اگلا</string>
+    <string name="supervisor_name">سپروائزر کا نام</string>
+    <string name="select_state">ریاست منتخب کریں</string>
+    <string name="select_district">ضلع منتخب کریں</string>
+    <string name="qualification">اہلیت</string>
+    <string name="experience">تجربے کے سال</string>
+    <string name="select_phc">PHC منتخب کریں</string>
+
+    <!-- General UI -->
+    <string name="app_logo">ایپ لوگو</string>
+    <string name="logout_button">لاگ آؤٹ</string>
+    <string name="notifications_button">نوٹیفیکیشنز</string>
+    <string name="settings_button">سیٹنگز</string>
+    <string name="about_us">ہمارے بارے میں</string>
+    <string name="app_language">ایپ کی زبان منتخب کریں</string>
+    <string name="welcome_to_mediconnect_ai">میڈیکونیکٹ AI میں خوش آمدید</string>
+    <string name="privacy_policy_and_terms">جاری رکھنے سے، آپ ہماری <![CDATA[<a href="#">پرائیویسی پالیسی</a>]]> اور <![CDATA[<a href="#">سروس کی شرائط</a>]]> سے اتفاق کرتے ہیں۔</string>
+    <string name="welcome_subtitle_hero">آپ دیکھ بھال فراہم کریں۔ ہم AI فراہم کرتے ہیں۔ کسی بھی وقت، کہیں بھی – آف لائن بھی۔</string>
+    <string name="english">انگریزی</string>
+    <string name="agree_and_continue">اتفاق کریں اور جاری رکھیں</string>
+
+
+
+    <!-- Welcome Screen -->
+    <string name="change_language">زبان تبدیل کریں</string>
+    <string name="dropdown_icon_desc">زبان منتخب کرنے کے لیے ڈراپ ڈاؤن آئیکن</string>
+
+    <!-- Main Dashboard Screen -->
+    <string name="menu_description">مینو</string>
+    <string name="emergency_sos_description">ایمرجنسی SOS</string>
+    <string name="dashboard_daily_tasks_title">روزانہ کے کام</string>
+    <string name="dashboard_daily_tasks_subtitle">اپنے روزانہ کے کام دیکھیں</string>
+    <string name="dashboard_new_patient_title">نیا مریض</string>
+    <string name="dashboard_new_patient_subtitle">نئی شخصیت رجسٹر کریں</string>
+    <string name="dashboard_view_records_title">ریکارڈز دیکھیں</string>
+    <string name="dashboard_view_records_subtitle">مریض کی تاریخ دیکھیں</string>
+    <string name="dashboard_schedule_title">شیڈول</string>
+    <string name="dashboard_schedule_subtitle">آج کے شیڈول دیکھیں</string>
+    <string name="dashboard_symptom_checker_title">علامات چیک کریں</string>
+    <string name="dashboard_symptom_checker_subtitle">علامات چیک کریں اور تجاویز حاصل کریں</string>
+    <string name="dashboard_quick_stats_title">فوری اعداد و شمار</string>
+    <string name="dashboard_quick_stats_subtitle">آج کا خلاصہ دیکھیں</string>
+
+    <!-- Role Selection Screen -->
+    <string name="role_selection_title">آپ کون ہیں؟</string>
+    <string name="role_selection_subtitle">جاری رکھنے کے لیے اپنا کردار منتخب کریں</string>
+    <string name="role_asha_anm_nurse">آشا / ANM / نرس</string>
+    <string name="role_doctor">ڈاکٹر</string>
+    <string name="role_patient_family">مریض / خاندان کا رکن</string>
+
+    <!-- Start Screen -->
+    <string name="start_screen_background_desc">پرسکون ماحول میں صحت کارکن</string>
+    <string name="start_screen_title">کیا آپ بھارت کے ہر کونے میں صحت کی تبدیلی کے لیے تیار ہیں؟</string>
+    <string name="start_screen_subtitle">AI سے چلنے والی مدد، آف لائن رسائی اور آسان رپورٹنگ۔</string>
+    <string name="start_screen_button">میڈیکونیکٹ AI استعمال کرنا شروع کریں</string>
+    <string name="start_screen_tagline">ہر خاندان کو اسمارٹ دیکھ بھال کی ضرورت ہے، خاموش درد نہیں۔</string>
+
+    <!-- Navigation Drawer Header -->
+    <string name="nav_header_title">میڈیکونیکٹ AI</string>
+    <string name="nav_header_subtitle">صحت کارکن ڈیش بورڈ</string>
+
+    <!-- SOS Log Item -->
+    <string name="sos_log_action_label">کارروائی: </string>
+
+    <!-- Emergency Contact Item -->
+    <string name="item_emergency_contact_call_description">کال کریں</string>
+
+    <!-- MPIN Screen -->
+    <string name="mpin_title_enter_pin">اپنا PIN درج کریں</string>
+    <string name="mpin_message_set_new">اپنا نیا MPIN سیٹ کریں</string>
+    <string name="mpin_forgot_code">کوڈ بھول گئے؟</string>
+    <string name="mpin_backspace_description">بیک اسپیس</string>
+    <string name="mpin_submit_button">جمع کریں</string>
+
+    <!-- MPIN Activity Messages -->
+    <string name="mpin_set_successfully">MPIN کامیابی کے ساتھ سیٹ ہوگیا!</string>
+    <string name="mpin_correct_welcome">PIN درست! خوش آمدید۔</string>
+    <string name="mpin_incorrect_try_again">غلط PIN۔ دوبارہ کوشش کریں۔</string>
+
+    <!-- NEW STRINGS FROM LAYOUT -->
+    <string name="mpin_app_name_header">میڈیکونیکٹ AI</string>
+
+
+
+    <!-- Additional MPIN Strings -->
+    <string name="mpin_title_create_pin">MPIN بنائیں</string>
+    <string name="mpin_title_confirm_pin">MPIN کی تصدیق کریں</string>
+    <string name="mpin_hint_pin">اپنا 4 ہندسوں کا MPIN درج کریں</string>
+    <string name="mpin_hint_confirm_pin">اپنا MPIN دوبارہ درج کریں</string>
+    <string name="mpin_button_continue">جاری رکھیں</string>
+    <string name="mpin_error_pin_required">PIN ضروری ہے</string>
+    <string name="mpin_error_pin_length">PIN 4 ہندسوں کا ہونا چاہیے</string>
+    <string name="mpin_error_pin_mismatch">PIN میل نہیں کھاتا</string>
+
+    <string name="nav_home">ہوم</string>
+    <string name="nav_resources">وسائل</string>
+    <string name="nav_emergency_contacts">ہنگامی رابطے</string>
+    <string name="nav_profile">پروفائل</string>
+    <string name="nav_settings">سیٹنگز</string>
+    <string name="nav_about_us">ہمارے بارے میں</string>
+    <string name="nav_account_header">اکاؤنٹ</string>
+    <string name="nav_logout">لاگ آؤٹ</string>
+
+    <string name="immunization_schedules">ٹییکہ کاری کا شیڈول</string>
+
+    <string name="action_edit_patient">مریض ترمیم کریں</string>
+    <string name="action_emergency_contacts">ہنگامی رابطے</string>
+    <string name="action_logout">لاگ آؤٹ</string>
+
+    <string name="navigation_drawer_open">نیویگیشن ڈراور کھولیں</string>
+    <string name="navigation_drawer_close">نیویگیشن ڈراور بند کریں</string>
+
+    <string name="settings_title">سیٹنگز</string>
+    <string name="settings_general">عمومی</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_language_subtitle">ایپلیکیشن کی زبان منتخب کریں</string>
+    <string name="settings_notifications">اطلاعات</string>
+    <string name="settings_notifications_title">ایپ کی اطلاعات</string>
+    <string name="settings_notifications_subtitle">تمام الرٹس کو فعال یا غیر فعال کریں</string>
+    <string name="dialog_select_language_title">زبان منتخب کریں</string>
+
+    <string name="resources_title">صحت کے وسائل</string>
+    <string name="resources_maternal_title">ماں کی صحت</string>
+    <string name="resources_maternal_subtitle">ANC، بعد از پیدائش دیکھ بھال، غذائیت</string>
+    <string name="resources_child_title">بچوں کی صحت</string>
+    <string name="resources_child_subtitle">نشوونما کی نگرانی، غذائیت</string>
+    <string name="resources_immunization_title">ٹییکہ کاری کی معلومات</string>
+    <string name="resources_immunization_subtitle">ویکسین کے شیڈول اور اہمیت</string>
+    <string name="resources_schemes_title">حکومتی سکیمیں</string>
+    <string name="resources_schemes_subtitle">JSSK، PMMVY کی تفصیلات</string>
+
+    <string name="content_maternal_health">
+    <![CDATA[
+        <b>قبل از پیدائش دیکھ بھال (ANC)</b><br/>
+        صحت مند حمل کے لیے مناسب ANC ضروری ہے۔ اہم ذمہ داریاں:<br/>
+        <ul>
+            <li>یقینی بنائیں کہ پہلی چیک اپ پہلے 12 ہفتوں میں ہو۔</li>
+            <li>کم از کم چار ANC دوروں کے لیے ترغیب دیں۔</li>
+            <li>آئرن فولیٹ ایسڈ (IFA) کی گولیاں تقسیم کریں اور ٹیٹنس ٹاکسوئڈ (TT) کے انجیکشن دیے جانے کو یقینی بنائیں۔</li>
+        </ul>
+        <br/>
+        <b>بعد از پیدائش دیکھ بھال (PNC)</b><br/>
+        پیدائش کے بعد دیکھ بھال ماں اور بچے دونوں کے لیے اہم ہے۔ آپ کا کردار:<br/>
+        <ul>
+            <li>پیدائش کے 24 گھنٹوں کے اندر پہلی ہوم وزٹ کریں۔</li>
+            <li>پہلے 6 ہفتوں میں کم از کم 3-4 فالو اپ دورے کریں۔</li>
+            <li>خصوصی دودھ پلانے، غذائیت اور ماں و نوزائیدہ میں خطرے کی علامات کی نشاندہی پر مشورہ دیں۔</li>
+        </ul>
+        <br/>
+        <b>حمل کے دوران غذائیت</b><br/>
+        حاملہ خواتین کو آئرن، کیلشیم اور پروٹین سے بھرپور متوازن غذا کھانے کی ہدایت دیں۔ سبز پتوں والی سبزیاں، ڈیری مصنوعات اور دالیں شامل کریں۔
+    ]]>
+</string>
+
+    <string name="content_child_health">
+    <![CDATA[
+        <b>نشوونما کی نگرانی</b><br/>
+        پانچ سال سے کم عمر کے بچوں کی نشوونما باقاعدگی سے مانیٹر کریں۔ اس میں شامل ہے:<br/>
+        <ul>
+            <li>ہوم وزٹ کے دوران درست وزن اور قد کی پیمائش۔</li>
+            <li>نشوونما کو ٹریک کرنے کے لیے گروتھ چارٹ میں ریکارڈ کریں۔</li>
+            <li>غذائی کمی کی علامات (کم وزن، قد میں کمی) کی شناخت اور والدین کو مناسب کھانے کی ہدایت دیں۔</li>
+        </ul>
+        <br/>
+        <b>شیر خوار اور بچوں کے لیے غذائیت</b><br/>
+        آپ کی مشاورت میں یہ شامل ہونا چاہیے:<br/>
+        <ul>
+            <li>پہلے 6 ماہ کے لیے خصوصی دودھ پلانے کو فروغ دیں۔</li>
+            <li>6 ماہ کے بعد نیم ٹھوس ضمنی غذائیں متعارف کروائیں، دودھ پلانا جاری رکھیں۔</li>
+            <li>بچوں کو قومی شیڈول کے مطابق سال میں دو بار وٹامن A کی سپلیمنٹیشن دیں تاکہ بینائی کی حفاظت اور مدافعت کو بڑھایا جا سکے۔</li>
+        </ul>
+    ]]>
+</string>
+
+    <string name="content_immunization_info">
+    <![CDATA[
+        <b>ٹییکہ کاری کی اہمیت</b><br/>
+        ویکسین بچوں کو پولیو، خسرہ، ٹیٹنس اور تپ دق جیسے سنگین اور جان لیوا بیماریوں سے بچانے کا سب سے مؤثر طریقہ ہیں۔ آپ کا کام یہ یقینی بنانا ہے کہ ہر بچہ اپنا مکمل ویکسین شیڈول بروقت مکمل کرے۔<br/><br/>
+        <b>پہلے سال کی اہم ویکسینیں:</b><br/>
+        <ul>
+            <li><b>BCG، OPV-0، Hep-B:</b> پیدائش پر دی جاتی ہیں۔ تپ دق، پولیو اور ہیپاٹائٹس B سے تحفظ کے لیے۔</li>
+            <li><b>Pentavalent Vaccine:</b> 5 بڑی بیماریوں سے تحفظ (ڈفتھیریا، پرٹوسس، ٹیٹنس، ہیپاٹائٹس B، Hib)۔ 6، 10 اور 14 ہفتوں پر دی جاتی ہے۔</li>
+            <li><b>Rotavirus Vaccine:</b> شدید اسہال سے تحفظ۔ 6، 10 اور 14 ہفتوں پر دی جاتی ہے۔</li>
+            <li><b>Measles/MR Vaccine:</b> 9 ماہ پر دی جاتی ہے تاکہ خسرہ اور روبیلا سے تحفظ ہو جو بچوں کے لیے مہلک ہو سکتا ہے۔</li>
+        </ul>
+    ]]>
+</string>
+
+    <string name="content_gov_schemes">
+    <![CDATA[
+        <b>جننی ششو سورکشا کاری کرام (JSSK)</b><br/>
+        یہ سکیم حاملہ خواتین اور بیمار نومولود بچوں کے لیے جیب خرچ کو کم کرنے کے لیے ہے۔ اہم فوائد:<br/>
+        <ul>
+            <li>عوامی صحت کے اداروں میں بالکل مفت اور بغیر کسی خرچ کے ڈلیوری، سیزیرین سمیت۔</li>
+            <li>گھر سے ادارے تک، حوالہ کی صورت میں سہولیات کے درمیان، اور گھر واپسی کے لیے مفت نقل و حمل۔</li>
+            <li>ایک سال تک بیمار نومولود بچوں کے لیے مفت دیکھ بھال، دوائیں اور ضروری اشیاء۔</li>
+        </ul>
+        <br/>
+        <b>پردھان منتری ماترو وندنا یوجنا (PMMVY)</b><br/>
+        یہ حاملہ خواتین اور دودھ پلانے والی ماؤں کے لیے ان کی پہلی پیدائش پر ماہواری فائدہ پروگرام ہے۔ اہم خصوصیات:<br/>
+        <ul>
+            <li>₹5,000 نقد مراعات تین قسطوں میں ادا کی جاتی ہیں۔</li>
+            <li>مقصد: جزوی تنخواہ کی تلافی فراہم کرنا اور ماں اور بچے کی صحت اور غذائیت کو بہتر بنانا۔</li>
+        </ul>
+    ]]>
+</string>
+
+    <string name="about_us_title">ہمارے بارے میں</string>
+    <string name="about_us_mission_title">ہمارا مشن</string>
+    <string name="about_us_mission_content">MediConnect AI ایک ڈیجیٹل معاون ہے جو کمیونٹی ہیلتھ ورکرز کو بااختیار بنانے اور دیہی علاقوں میں صحت کی سہولیات کو بہتر بنانے کے لیے ڈیزائن کیا گیا ہے۔</string>
+    <string name="about_us_features_title">اہم خصوصیات</string>
+    <string name="about_us_features_content">
+    • خودکار کام کا شیڈول<br/>
+    • ڈیجیٹل مریض کے ریکارڈز<br/>
+    • ٹییکہ کاری &amp; ANC ٹریکنگ<br/>
+    • کمیونٹی ہیلتھ براڈکاسٹنگ<br/>
+    • علامات کا تجزیہ &amp; ریفرلز
+</string>
+
+    <string name="profile_title">میری پروفائل</string>
+    <string name="welcome_fragment_register_now">ابھی رجسٹر کریں</string>
+    <string name="welcome_fragment_background_desc">صحت کے کارکنوں کی تصویر</string>
+    <string name="welcome_fragment_title">بھارت کے فرنٹ لائن ہیلتھ ہیروز کو بااختیار بنانا</string>
+    <string name="welcome_fragment_subtitle">ہمدردی کے ساتھ بنایا گیا۔\nاے آئی سے تقویت یافتہ۔\nبھارت کے فرنٹ لائن صحت کے کارکنوں کے لیے ڈیزائن کیا گیا۔</string>
+    <string name="welcome_fragment_tagline">ASHA اور ANM کارکنوں کو زندگی بچانے کے قابل بنانا – یہاں تک کہ جہاں ڈاکٹر نہیں پہنچ سکتے۔</string>
+    <string name="welcome_fragment_next_button_desc">اگلے صفحے پر جائیں</string>
+
+    <string name="nav_sos">ایس او ایس</string>
+    <string name="nav_notifications">اطلاعات</string>
+    <string name="nav_dashboard">ڈیش بورڈ</string>
+    <string name="nav_my_profile">میری پروفائل</string>
+    <string name="nav_account">کھاتہ</string>
+    <string name="nav_doctor_dashboard">ڈاکٹر ڈیش بورڈ</string>
+    <string name="nav_health_worker_dashboard">صحت کارکن ڈیش بورڈ</string>
+
+    <string name="register_new_patient">نئے مریض کا اندراج کریں</string>
+    <string name="personal_details">ذاتی معلومات</string>
+
+    <string name="date_of_birth">تاریخ پیدائش</string>
+    <string name="no_date_selected">کوئی تاریخ منتخب نہیں کی گئی</string>
+    <string name="select_date">تاریخ منتخب کریں</string>
+
+    <string name="contact_health_info">رابطہ اور صحت کی معلومات</string>
+    <string name="contact_number">رابطہ نمبر</string>
+    <string name="address_village">پتہ / گاؤں</string>
+    <string name="aadhaar_number">آدھار نمبر (اختیاری)</string>
+    <string name="pre_existing_conditions">پہلے سے موجود بیماریاں (اگر ہوں)</string>
+    <string name="save_patient">مریض کو محفوظ کریں</string>
+
+    <string name="smart_route_map">اسمارٹ روٹ میپ</string>
+    <string name="smart_route_subtitle">وزٹ کے لیے بہترین راستہ دیکھیں</string>
+
+    <string name="community_alerts">کمیونٹی الرٹس</string>
+    <string name="community_alerts_subtitle">صحت کی وارننگز نشر کریں</string>
+
+    <string name="smart_route_current_target">موجودہ وزٹ ہدف</string>
+    <string name="smart_route_calculating">بہترین راستہ نکالا جا رہا ہے...</string>
+    <string name="smart_route_tip">(مشورہ: کسی بھی پن پر ٹیپ کریں اور سیدھے اس گھر جائیں)</string>
+    <string name="smart_route_mark_done">مکمل</string>
+    <string name="smart_route_navigate">راستہ دکھائیں</string>
+    <string name="smart_route_refresh">راستہ ریفریش کریں</string>
+    <string name="smart_route_back_button">واپس جائیں</string>
+
+    <string name="alert_title">براڈکاسٹ الرٹ</string>
+    <string name="alert_compose_message">پیغام لکھیں</string>
+    <string name="alert_input_title_hint">عنوان (جیسے پولیو کیمپ)</string>
+    <string name="alert_input_message_hint">پیغام کی تفصیل</string>
+    <string name="alert_select_audience">سامعین منتخب کریں</string>
+    <string name="alert_all_families">تمام رجسٹرڈ خاندان</string>
+    <string name="alert_pregnant_only">صرف حاملہ خواتین (ANC)</string>
+    <string name="alert_children_under_5">5 سال سے کم بچے (ٹیکہ کاری)</string>
+    <string name="alert_send_broadcast">📢 الرٹ بھیجیں</string>
+    <string name="alert_ready_to_send">بھیجنے کے لیے تیار</string>
+
+    <string name="resource_header_image_desc">موضوع کے لئے ہیڈر تصویر</string>
+    <string name="resource_detail_title">وسیلہ عنوان</string>
+    <string name="resource_detail_content">صحت کے وسائل کی تفصیلی معلومات</string>
+
+    <string name="patient_id_title">اپنا مریض ID درج کریں</string>
+    <string name="patient_id_subtitle">براہ کرم آشا ورکر کی طرف سے دیا گیا ID درج کریں۔</string>
+    <string name="patient_id_hint">مریض ID</string>
+    <string name="patient_id_button">میرا ڈیش بورڈ دیکھیں</string>
+
+    <string name="family_info_title">خاندانی / گھریلو معلومات</string>
+    <string name="family_id_hint">فیملی آئی ڈی / گھر نمبر</string>
+    <string name="household_size_hint">اس گھر میں کتنے لوگ رہتے ہیں؟</string>
+    <string name="is_head_of_family">کیا یہ شخص خاندان کا سربراہ ہے؟</string>
+    <string name="capture_gps">📍 جی پی ایس کیپچر کریں</string>
+    <string name="location_not_set">مقام سیٹ نہیں ہے</string>
+
+
+
+
+
+
+</resources>

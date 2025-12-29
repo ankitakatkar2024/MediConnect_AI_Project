@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA"
+    tools:context=".ResourcesActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarResources"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:title="@string/resources_title"
+        app:titleTextColor="?attr/colorOnPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardMaternalHealth"
+                style="@style/DashboardCard">
+                <LinearLayout style="@style/DashboardCardContent">
+                    <ImageView
+                        style="@style/DashboardCardIcon"
+                        android:background="@drawable/icon_background_pink"
+                        android:src="@drawable/ic_maternal_health"
+                        android:contentDescription="@string/resources_maternal_title"/>
+                    <LinearLayout style="@style/DashboardCardTextContainer">
+                        <TextView style="@style/DashboardCardTitle" android:text="@string/resources_maternal_title" />
+                        <TextView style="@style/DashboardCardSubtitle" android:text="@string/resources_maternal_subtitle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChildHealth"
+                style="@style/DashboardCard">
+                <LinearLayout style="@style/DashboardCardContent">
+                    <ImageView
+                        style="@style/DashboardCardIcon"
+                        android:background="@drawable/icon_background_green"
+                        android:src="@drawable/ic_child_health"
+                        android:contentDescription="@string/resources_child_title"/>
+                    <LinearLayout style="@style/DashboardCardTextContainer">
+                        <TextView style="@style/DashboardCardTitle" android:text="@string/resources_child_title" />
+                        <TextView style="@style/DashboardCardSubtitle" android:text="@string/resources_child_subtitle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardImmunizationInfo"
+                style="@style/DashboardCard">
+                <LinearLayout style="@style/DashboardCardContent">
+                    <ImageView
+                        style="@style/DashboardCardIcon"
+                        android:background="@drawable/icon_background_blue"
+                        android:src="@drawable/ic_vaccine"
+                        android:contentDescription="@string/resources_immunization_title"/>
+                    <LinearLayout style="@style/DashboardCardTextContainer">
+                        <TextView style="@style/DashboardCardTitle" android:text="@string/resources_immunization_title" />
+                        <TextView style="@style/DashboardCardSubtitle" android:text="@string/resources_immunization_subtitle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardGovSchemes"
+                style="@style/DashboardCard">
+                <LinearLayout style="@style/DashboardCardContent">
+                    <ImageView
+                        style="@style/DashboardCardIcon"
+                        android:background="@drawable/icon_background_yellow"
+                        android:src="@drawable/ic_gov_schemes"
+                        android:contentDescription="@string/resources_schemes_title"/>
+                    <LinearLayout style="@style/DashboardCardTextContainer">
+                        <TextView style="@style/DashboardCardTitle" android:text="@string/resources_schemes_title" />
+                        <TextView style="@style/DashboardCardSubtitle" android:text="@string/resources_schemes_subtitle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
