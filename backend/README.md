@@ -1,58 +1,68 @@
-# MediConnect AI – Backend
+MediConnect AI – Backend (Python / Flask)
 
-This folder contains the **Python backend** for the MediConnect AI project.
+This folder contains the backend service developed as part of the MediConnect AI academic project.
+The backend is designed to support the Android application by providing basic decision-support logic and REST APIs.
 
-The backend is responsible for **AI-assisted logic and APIs** used by the Android
-application to support frontline healthcare workers such as ASHA, ANM, and GNM.
+The implementation focuses on learning backend development concepts and simple rule-based / ML-assisted processing, rather than production-level healthcare systems.
 
----
+🎯 Purpose
 
-## 🎯 Purpose
+The backend was developed to:
 
-- Process symptom inputs sent from the Android app
-- Perform AI-based analysis and risk categorization
-- Support decision-making for healthcare workers
-- Keep backend logic separate from frontend UI
+Receive symptom-related inputs from the Android application
 
----
+Apply basic rule-based or simple ML logic to categorize health risk levels
 
-## ✨ Features
+Return risk indicators (Low / Medium / High) for follow-up prioritization
 
-- AI-based symptom analysis
-- Risk classification (Low / Medium / High)
-- Lightweight REST APIs consumed by the Android app
-- Designed to work with low-resource and rural environments
+Keep backend processing separate from the mobile user interface
 
----
+✨ Key Functionalities
 
-## 🛠️ Tech Stack
+Symptom-based risk categorization using rule-based / basic ML logic
 
-- Python
-- Flask
-- AI-based rule-based / ML logic
+REST APIs for communication with the Android application
 
----
+Lightweight design suitable for academic demonstration
 
-## 📂 Folder Structure
+Simple and readable code structure for ease of understanding
 
+🛠️ Technology Stack
+
+Python
+
+Flask (REST API development)
+
+Rule-based / basic ML logic (educational scope)
+
+📂 Folder Structure
 backend/
-├── app.py # Main backend entry point
-├── README.md # Backend documentation ## ▶️ How to Run (Local)
+├── app.py        # Flask application entry point
+├── README.md     # Backend documentation
 
-## ▶️ How to Run (Local)
+▶️ Running the Backend (Local)
 
-```bash
+To run the backend locally for testing:
+
 pip install -r requirements.txt
 python app.py
 
-## 🔄 Android Integration
+🔄 Android Application Integration
 
-The Android application communicates with the backend through REST APIs to obtain
-AI-driven symptom insights and risk assessments, enabling decision support for
-frontline healthcare workers.
+The Android application communicates with this backend through REST APIs to retrieve basic risk indicators based on the symptoms recorded during field visits.
+The backend is invoked only when internet connectivity is available, aligning with the offline-first design of the mobile app.
 
-## 🔒 Security Notes
+🔒 Security & Code Practices (Academic Scope)
 
-- Environment configuration files (`.env`) are excluded from the repository  
-- Virtual environments (`.venv`) are not committed to version control  
-- No sensitive credentials or secrets are stored in GitHub
+Environment configuration files (.env) are excluded from version control
+
+Virtual environments (.venv) are not committed
+
+No sensitive credentials or personal health data are stored in the repository
+
+Project intended strictly for learning and demonstration purposes
+
+
+✅ Final Note
+
+This backend is part of an academic prototype and demonstrates how backend services can support mobile applications with basic decision-support logic in low-connectivity environments.
